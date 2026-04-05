@@ -96,13 +96,11 @@ export function Hero() {
               <div className="absolute top-0 left-1/2 -translate-x-1/2 bg-black rounded-b-xl md:rounded-b-2xl w-20 md:w-32 h-3 md:h-5 z-10" />
               <Image
                 src="/app-home.jpg"
-                alt="MediLog App"
+                alt="MediLog App — Family health record dashboard showing prescriptions, reminders, and family members"
                 fill
-                quality={100}
-                loading="lazy"
+                priority
                 className="object-cover object-top"
                 sizes="(max-width: 768px) 176px, 384px"
-                unoptimized
               />
             </div>
           </div>
