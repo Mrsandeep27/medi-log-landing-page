@@ -3,6 +3,7 @@
 import { motion } from 'motion/react'
 import { Heart } from 'lucide-react'
 import Image from 'next/image'
+import Link from 'next/link'
 
 export function Footer() {
   return (
@@ -38,9 +39,20 @@ export function Footer() {
               GitHub
             </a>
             <span>·</span>
-            <a href="mailto:hello@medi-log.in" className="hover:text-blue-600 transition-colors">
+            <a href="mailto:sandeep@2xg.in" className="hover:text-blue-600 transition-colors">
               Contact
             </a>
+          </div>
+
+          {/* Legal links */}
+          <div className="flex items-center gap-4 text-xs text-gray-500">
+            <Link href="/privacy" className="hover:text-blue-400 transition-colors">
+              Privacy Policy
+            </Link>
+            <span>·</span>
+            <Link href="/terms" className="hover:text-blue-400 transition-colors">
+              Terms of Service
+            </Link>
           </div>
 
           {/* Bottom */}
