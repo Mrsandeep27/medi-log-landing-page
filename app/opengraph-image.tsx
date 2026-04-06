@@ -1,7 +1,7 @@
 import { ImageResponse } from 'next/og'
 
 export const runtime = 'edge'
-export const alt = 'MediFamily — Family Health Record App'
+export const alt = 'MediFamily — India Ka Family Health Record App'
 export const size = { width: 1200, height: 630 }
 export const contentType = 'image/png'
 
@@ -25,7 +25,7 @@ export default function OgImage() {
             display: 'flex',
             alignItems: 'center',
             gap: '16px',
-            marginBottom: '32px',
+            marginBottom: '24px',
           }}
         >
           <div
@@ -58,7 +58,7 @@ export default function OgImage() {
         </div>
         <div
           style={{
-            fontSize: '36px',
+            fontSize: '34px',
             fontWeight: 'bold',
             color: '#111827',
             textAlign: 'center',
@@ -70,13 +70,29 @@ export default function OgImage() {
         </div>
         <div
           style={{
-            fontSize: '22px',
-            color: '#6b7280',
-            marginTop: '16px',
+            fontSize: '20px',
+            color: '#4b5563',
+            marginTop: '12px',
             textAlign: 'center',
+            maxWidth: '700px',
           }}
         >
-          Free • Offline • AI-Powered • Made in India
+          AI Prescription Scanner | Medicine Reminders | Doctor Sharing
+        </div>
+        <div
+          style={{
+            fontSize: '18px',
+            color: '#6b7280',
+            marginTop: '16px',
+            display: 'flex',
+            gap: '16px',
+          }}
+        >
+          <span>100% Free</span>
+          <span>•</span>
+          <span>Offline Works</span>
+          <span>•</span>
+          <span>Made in India</span>
         </div>
       </div>
     ),

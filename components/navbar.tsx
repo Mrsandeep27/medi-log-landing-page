@@ -32,7 +32,7 @@ export function Navbar() {
 
         {/* CTA */}
         <a
-          href="https://medi--log.vercel.app"
+          href="https://app.medilog.in"
           target="_blank"
           rel="noopener noreferrer"
           className="px-5 py-2 bg-gradient-to-r from-blue-500 to-indigo-600 hover:from-blue-600 hover:to-indigo-700 text-white text-sm font-semibold rounded-lg transition-all shadow-md hover:shadow-lg hover:shadow-blue-500/25"
