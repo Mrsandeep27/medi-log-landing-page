@@ -123,10 +123,10 @@ export function Features() {
               <h3 className="text-sm md:text-xl font-bold text-gray-900 mb-1 md:mb-2">
                 {feature.title}
               </h3>
-              <p className="text-gray-700 font-medium text-xs md:text-base mb-1 md:mb-2">
+              <p className="text-gray-800 font-medium text-xs md:text-base mb-1 md:mb-2">
                 {feature.description}
               </p>
-              <p className="text-gray-500 text-[10px] md:text-sm hidden md:block">
+              <p className="text-gray-600 text-[10px] md:text-sm hidden md:block">
                 {feature.details}
               </p>
 
