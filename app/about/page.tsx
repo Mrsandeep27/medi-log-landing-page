@@ -108,23 +108,6 @@ export default function About() {
           </div>
         </section>
 
-        {/* Tech Stack */}
-        <section className="mb-12">
-          <h2 className="text-2xl font-bold text-gray-900 mb-4">Built With</h2>
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
-            {[
-              { name: 'Next.js', desc: 'React framework' },
-              { name: 'Supabase', desc: 'Auth + Database' },
-              { name: 'Google Gemini AI', desc: 'AI features' },
-              { name: 'Dexie.js', desc: 'Offline storage' },
-            ].map((tech) => (
-              <div key={tech.name} className="bg-gray-50 rounded-lg p-4 border border-gray-200 text-center">
-                <p className="font-semibold text-gray-900 text-sm">{tech.name}</p>
-                <p className="text-xs text-gray-500 mt-1">{tech.desc}</p>
-              </div>
-            ))}
-          </div>
-        </section>
 
         {/* How It Works */}
         <section className="mb-12">
@@ -157,13 +140,6 @@ export default function About() {
           </div>
         </section>
 
-        {/* Open Source */}
-        <section>
-          <h2 className="text-2xl font-bold text-gray-900 mb-4">Open Source</h2>
-          <p className="text-gray-700">
-            MediFamily is fully open source and transparent. Anyone can audit the code and verify how your health data is handled.
-          </p>
-        </section>
       </motion.div>
     </div>
   )
