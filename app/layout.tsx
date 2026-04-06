@@ -90,10 +90,6 @@ export const metadata: Metadata = {
       'max-snippet': -1,
     },
   },
-  icons: {
-    icon: '/icon.svg',
-    apple: '/apple-icon.png',
-  },
   category: 'health',
   other: {
     'geo.region': 'IN-KA',
