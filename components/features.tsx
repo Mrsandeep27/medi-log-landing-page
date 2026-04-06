@@ -23,7 +23,7 @@ const features: {
     accent: 'bento-blue',
     glow: 'hover:shadow-blue-500/15',
     badge: 'Most Popular',
-    span: 'md:col-span-2 md:row-span-2',
+    span: '',
     bgColor: 'bg-blue-50',
   },
   {
@@ -73,7 +73,7 @@ const features: {
     details: 'Village mein bhi kaam karega — tested!',
     accent: 'bento-teal',
     glow: 'hover:shadow-teal-500/15',
-    span: 'md:col-span-2',
+    span: '',
     bgColor: 'bg-teal-50',
   },
 ]
@@ -98,7 +98,7 @@ export function Features() {
         </motion.div>
 
         {/* Bento Grid — compact on mobile, bento on desktop */}
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-3 md:gap-4">
+        <div className="grid grid-cols-2 md:grid-cols-3 gap-3 md:gap-4">
           {features.map((feature, i) => (
             <motion.div
               key={i}
@@ -120,7 +120,7 @@ export function Features() {
                 {feature.icon}
               </div>
 
-              <h3 className={`text-sm md:text-xl font-bold text-gray-900 mb-1 md:mb-2 ${feature.span.includes('row-span-2') ? 'md:text-3xl' : ''}`}>
+              <h3 className="text-sm md:text-xl font-bold text-gray-900 mb-1 md:mb-2">
                 {feature.title}
               </h3>
               <p className="text-gray-700 font-medium text-xs md:text-base mb-1 md:mb-2">
