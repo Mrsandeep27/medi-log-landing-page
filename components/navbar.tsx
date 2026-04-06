@@ -27,7 +27,7 @@ export function Navbar() {
       <div className="max-w-6xl mx-auto px-4 py-3 flex items-center justify-between">
         {/* Logo */}
         <a href="#" className="flex items-center gap-2">
-          <Image src="/logo-gradient.jpeg" alt="MediFamily" width={160} height={48} className="h-10 md:h-12 w-auto" />
+          <Image src="/logo.png" alt="MediFamily" width={160} height={48} className="h-10 md:h-12 w-auto" />
         </a>
 
         {/* CTA */}

@@ -14,7 +14,7 @@ export default function PrivacyPolicy() {
             <ArrowLeft className="h-4 w-4" />
             <span className="text-sm">Back</span>
           </Link>
-          <Image src="/logo-gradient.jpeg" alt="MediFamily" width={100} height={32} className="h-8 w-auto" />
+          <Image src="/logo.png" alt="MediFamily" width={100} height={32} className="h-8 w-auto" />
         </div>
       </nav>
 

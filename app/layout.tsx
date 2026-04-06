@@ -113,7 +113,7 @@ function JsonLd() {
         '@type': 'Organization',
         name: 'MediFamily',
         url: siteUrl,
-        logo: `${siteUrl}/logo-gradient.jpeg`,
+        logo: `${siteUrl}/logo.png`,
         description: 'AI-powered family health record app for Indian families. Free, offline-first, Hindi-supported.',
         address: {
           '@type': 'PostalAddress',
