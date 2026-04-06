@@ -90,7 +90,7 @@ export function HowItWorks() {
           className="text-center mt-14"
         >
           <a
-            href="https://app.medilog.in"
+            href="https://app.medifamily.in"
             target="_blank"
             rel="noopener noreferrer"
             className="group relative inline-flex items-center gap-2 px-10 py-4 bg-gradient-to-r from-blue-500 to-indigo-600 hover:from-blue-600 hover:to-indigo-700 text-white font-bold text-lg rounded-xl transition-all shadow-lg shadow-blue-500/25 hover:shadow-blue-500/40 overflow-hidden"

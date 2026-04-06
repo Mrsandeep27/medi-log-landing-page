@@ -26,7 +26,7 @@ export function FinalCTA() {
         </p>
 
         <a
-          href="https://app.medilog.in"
+          href="https://app.medifamily.in"
           target="_blank"
           rel="noopener noreferrer"
           className="inline-flex items-center justify-center min-w-64 py-5 text-xl font-bold bg-gradient-to-r from-blue-500 to-indigo-600 text-white rounded-lg hover:from-blue-600 hover:to-indigo-700 transition-colors shadow-xl shadow-blue-500/20"

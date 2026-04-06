@@ -27,7 +27,7 @@ export function Footer() {
 
           {/* Links row */}
           <div className="flex flex-wrap items-center justify-center gap-x-4 gap-y-2 text-xs text-gray-400">
-            <a href="https://app.medilog.in" target="_blank" rel="noopener noreferrer" className="hover:text-blue-400 transition-colors">
+            <a href="https://app.medifamily.in" target="_blank" rel="noopener noreferrer" className="hover:text-blue-400 transition-colors">
               Open App
             </a>
             <span className="hidden sm:inline">·</span>

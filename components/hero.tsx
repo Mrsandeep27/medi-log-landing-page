@@ -69,7 +69,7 @@ export function Hero() {
 
           <motion.div variants={itemVariants} className="flex flex-col sm:flex-row gap-3 justify-center md:justify-start">
             <a
-              href="https://app.medilog.in"
+              href="https://app.medifamily.in"
               target="_blank"
               rel="noopener noreferrer"
               className="group relative px-6 py-3 md:px-8 md:py-4 bg-gradient-to-r from-blue-500 to-indigo-600 hover:from-blue-600 hover:to-indigo-700 text-white font-semibold rounded-xl text-center shadow-lg shadow-blue-500/25 transition-all overflow-hidden"
