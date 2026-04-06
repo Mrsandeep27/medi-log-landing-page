@@ -18,7 +18,7 @@ export function Footer() {
         >
           {/* Brand */}
           <div className="flex items-center gap-2">
-            <Image src="/logo.png" alt="MediFamily" width={200} height={56} className="h-14 w-auto brightness-0 invert" />
+            <Image src="/logo.png" alt="MediFamily" width={200} height={56} className="h-14 w-auto" />
           </div>
 
           <p className="text-gray-400 text-sm">
