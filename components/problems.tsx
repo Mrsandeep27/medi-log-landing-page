@@ -29,7 +29,7 @@ const problems: { icon: ReactNode; title: string; description: string }[] = [
 
 export function Problems() {
   return (
-    <section className="py-12 md:py-20 px-4 bg-gradient-to-b from-white to-gray-50 relative overflow-hidden">
+    <section className="py-12 md:py-20 px-4 bg-gradient-to-b from-white to-gray-50">
       <div className="max-w-6xl mx-auto relative z-10">
         {/* Section Heading */}
         <motion.div
@@ -56,10 +56,9 @@ export function Problems() {
               key={i}
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
-              whileHover={{ y: -4 }}
               transition={{ duration: 0.4, delay: i * 0.08 }}
               viewport={{ once: true }}
-              className="glass rounded-xl p-3 md:p-6 group transition-all duration-300 border border-red-200 hover:shadow-[0_0_30px_rgba(239,68,68,0.1)] hover:border-red-300"
+              className="glass rounded-xl p-3 md:p-6 group transition-colors duration-200 border border-red-200 hover:border-red-300"
             >
               <div className="w-10 h-10 md:w-12 md:h-12 rounded-xl bg-red-50 flex items-center justify-center mb-2 md:mb-4">
                 {problem.icon}

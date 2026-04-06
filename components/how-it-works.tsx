@@ -27,7 +27,7 @@ const steps: { number: string; icon: ReactNode; title: string; description: stri
 
 export function HowItWorks() {
   return (
-    <section className="py-12 md:py-24 px-4 bg-gradient-to-b from-white via-gray-50 to-white relative">
+    <section className="py-12 md:py-24 px-4 bg-gradient-to-b from-white via-gray-50 to-white">
       <div className="max-w-6xl mx-auto relative z-10">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
@@ -65,13 +65,11 @@ export function HowItWorks() {
             >
               {/* Step circle with glow */}
               <div className="relative mb-8">
-                <div className="absolute inset-0 bg-gradient-to-br from-blue-500 to-indigo-600 rounded-full blur-lg opacity-30" />
-                <motion.div
-                  whileHover={{ scale: 1.1, rotate: 5 }}
-                  className="relative w-12 h-12 md:w-20 md:h-20 bg-gradient-to-br from-blue-500 to-indigo-600 rounded-full flex items-center justify-center shadow-xl shadow-blue-500/25"
+                <div
+                  className="relative w-12 h-12 md:w-20 md:h-20 bg-gradient-to-br from-blue-500 to-indigo-600 rounded-full flex items-center justify-center shadow-lg shadow-blue-500/20"
                 >
                   <span className="text-white text-xl md:text-3xl font-bold">{step.number}</span>
-                </motion.div>
+                </div>
               </div>
 
               {/* Step content */}

@@ -80,7 +80,7 @@ const features: {
 
 export function Features() {
   return (
-    <section id="features" className="py-24 px-4 bg-gradient-to-b from-gray-50 via-white to-gray-50 relative">
+    <section id="features" className="py-24 px-4 bg-gradient-to-b from-gray-50 via-white to-gray-50">
       <div className="max-w-6xl mx-auto relative z-10">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
@@ -106,8 +106,7 @@ export function Features() {
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.4, delay: i * 0.06 }}
               viewport={{ once: true, amount: 0.2 }}
-              whileHover={{ y: -4, scale: 1.01 }}
-              className={`glass glass-hover rounded-xl p-4 md:p-8 group transition-all duration-300 relative overflow-hidden ${feature.accent} ${feature.glow} hover:shadow-lg ${feature.span}`}
+              className={`glass glass-hover rounded-xl p-4 md:p-8 group transition-colors duration-200 relative overflow-hidden ${feature.accent} ${feature.span}`}
             >
               {/* Badge */}
               {feature.badge && (
@@ -131,8 +130,6 @@ export function Features() {
                 {feature.details}
               </p>
 
-              {/* Hover glow */}
-              <div className="absolute -inset-4 bg-gradient-to-br from-blue-500/5 via-indigo-500/5 to-purple-500/5 rounded-2xl blur-xl opacity-0 group-hover:opacity-100 transition-opacity duration-500 -z-10" />
             </motion.div>
           ))}
         </div>

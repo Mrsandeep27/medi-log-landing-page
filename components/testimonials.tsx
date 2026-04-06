@@ -61,10 +61,9 @@ export function Testimonials() {
               key={i}
               initial={{ opacity: 0, y: 30 }}
               whileInView={{ opacity: 1, y: 0 }}
-              whileHover={{ y: -6 }}
               transition={{ duration: 0.5, delay: i * 0.1 }}
               viewport={{ once: true }}
-              className="glass rounded-xl p-5 relative overflow-hidden transition-all duration-300 min-w-[280px] max-w-[85vw] md:max-w-none md:min-w-0 snap-center flex-shrink-0"
+              className="glass rounded-xl p-5 relative overflow-hidden min-w-[280px] max-w-[85vw] md:max-w-none md:min-w-0 snap-center flex-shrink-0"
             >
               {/* Large watermark quote mark */}
               <div
@@ -100,21 +99,7 @@ export function Testimonials() {
               {/* Star Rating */}
               <div className="flex gap-1 mb-4 relative z-10">
                 {Array.from({ length: testimonial.rating }).map((_, j) => (
-                  <motion.span
-                    key={j}
-                    className="text-yellow-400"
-                    initial={{ scale: 0, opacity: 0 }}
-                    whileInView={{ scale: 1, opacity: 1 }}
-                    transition={{
-                      type: 'spring',
-                      stiffness: 260,
-                      damping: 15,
-                      delay: i * 0.1 + j * 0.05 + 0.2,
-                    }}
-                    viewport={{ once: true }}
-                  >
-                    <Star className="h-4 w-4 fill-yellow-400 text-yellow-400" />
-                  </motion.span>
+                  <Star key={j} className="h-4 w-4 fill-yellow-400 text-yellow-400" />
                 ))}
               </div>
 
