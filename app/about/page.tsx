@@ -79,9 +79,6 @@ export default function About() {
             <p className="text-gray-700">
               <strong>Sandeep Pandey</strong> — Bangalore, Karnataka, India
             </p>
-            <p className="text-gray-600 mt-2">
-              MediFamily is built under <strong>2XG</strong> as an open-source, pre-revenue project. The goal isn&apos;t to build a startup — it&apos;s to solve a real problem for real families.
-            </p>
           </div>
         </section>
 
