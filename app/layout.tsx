@@ -8,31 +8,31 @@ const inter = Inter({ subsets: ['latin'] })
 const siteUrl = 'https://medi-log-landing-page.vercel.app'
 
 export const metadata: Metadata = {
-  title: 'MediLog — Parivaar Ka Health Record App | Free, Offline, AI-Powered',
+  title: 'MediFamily — Parivaar Ka Health Record App | Free, Offline, AI-Powered',
   description: 'Apne poore parivaar ka health record ek app mein. AI se prescription scan karo, medicine reminders lo, doctor se QR se share karo. 100% free, works offline.',
   metadataBase: new URL(siteUrl),
   alternates: {
     canonical: '/',
   },
   openGraph: {
-    title: 'MediLog — Parivaar Ka Health Record App',
+    title: 'MediFamily — Parivaar Ka Health Record App',
     description: 'Offline-first family health records with AI prescription scanning. 100% free, works offline.',
     type: 'website',
     locale: 'hi_IN',
     url: siteUrl,
-    siteName: 'MediLog',
+    siteName: 'MediFamily',
     images: [
       {
         url: '/og-image.png',
         width: 1200,
         height: 630,
-        alt: 'MediLog — Family Health Record App',
+        alt: 'MediFamily — Family Health Record App',
       },
     ],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'MediLog — Parivaar Ka Health Record App',
+    title: 'MediFamily — Parivaar Ka Health Record App',
     description: 'Offline-first family health records with AI prescription scanning. 100% free.',
     images: ['/og-image.png'],
   },
@@ -59,15 +59,15 @@ function JsonLd() {
     '@graph': [
       {
         '@type': 'Organization',
-        name: 'MediLog',
+        name: 'MediFamily',
         url: siteUrl,
         logo: `${siteUrl}/logo-gradient.jpeg`,
         description: 'AI-powered family health record app for India',
-        sameAs: ['https://github.com/Mrsandeep27/MEDILOG'],
+        sameAs: ['https://github.com/Mrsandeep27/MEDIFAMILY'],
       },
       {
         '@type': 'SoftwareApplication',
-        name: 'MediLog',
+        name: 'MediFamily',
         description: 'Apne poore parivaar ka health record ek app mein. AI se prescription scan karo, medicine reminders lo, doctor se QR se share karo.',
         applicationCategory: 'HealthApplication',
         operatingSystem: 'Web',
@@ -85,7 +85,7 @@ function JsonLd() {
       },
       {
         '@type': 'WebSite',
-        name: 'MediLog',
+        name: 'MediFamily',
         url: siteUrl,
       },
     ],

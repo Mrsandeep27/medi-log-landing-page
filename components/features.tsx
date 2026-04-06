@@ -90,7 +90,7 @@ export function Features() {
           className="text-center mb-16"
         >
           <h2 className="text-3xl md:text-5xl font-bold text-gray-900 mb-4">
-            <span className="gradient-underline visible">Yeh Sab Kar Sakta Hai MediLog</span>
+            <span className="gradient-underline visible">Yeh Sab Kar Sakta Hai MediFamily</span>
           </h2>
           <p className="text-gray-500 text-lg mt-8">
             6 powerful features — ek hi app mein

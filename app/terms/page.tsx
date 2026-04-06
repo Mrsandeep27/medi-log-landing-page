@@ -14,7 +14,7 @@ export default function TermsOfService() {
             <ArrowLeft className="h-4 w-4" />
             <span className="text-sm">Back</span>
           </Link>
-          <Image src="/logo-gradient.jpeg" alt="MediLog" width={100} height={32} className="h-8 w-auto" />
+          <Image src="/logo-gradient.jpeg" alt="MediFamily" width={100} height={32} className="h-8 w-auto" />
         </div>
       </nav>
 
@@ -33,13 +33,13 @@ export default function TermsOfService() {
           <section>
             <h2>1. Acceptance of Terms</h2>
             <p>
-              By accessing or using the MediLog application (&quot;Service&quot;), you agree to be bound by these Terms of Service (&quot;Terms&quot;). If you do not agree, please do not use the Service.
+              By accessing or using the MediFamily application (&quot;Service&quot;), you agree to be bound by these Terms of Service (&quot;Terms&quot;). If you do not agree, please do not use the Service.
             </p>
             <p>
-              MediLog is operated by <strong>Sandeep Pandey</strong>, operating under the name <strong>2XG</strong>, based in Bangalore, Karnataka, India (&quot;we&quot;, &quot;us&quot;, &quot;our&quot;).
+              MediFamily is operated by <strong>Sandeep Pandey</strong>, operating under the name <strong>2XG</strong>, based in Bangalore, Karnataka, India (&quot;we&quot;, &quot;us&quot;, &quot;our&quot;).
             </p>
             <p>
-              These Terms, together with our <Link href="/privacy" className="text-blue-600 hover:underline">Privacy Policy</Link>, constitute the entire agreement between you and us regarding your use of MediLog. They supersede all prior agreements, representations, or understandings.
+              These Terms, together with our <Link href="/privacy" className="text-blue-600 hover:underline">Privacy Policy</Link>, constitute the entire agreement between you and us regarding your use of MediFamily. They supersede all prior agreements, representations, or understandings.
             </p>
           </section>
 
@@ -47,8 +47,8 @@ export default function TermsOfService() {
           <section>
             <h2>2. Eligibility</h2>
             <ul className="list-disc pl-6 space-y-1">
-              <li>You must be at least <strong>18 years of age</strong> to create a MediLog account</li>
-              <li>If you are between 13 and 18, you may use MediLog only under the supervision and with the consent of a parent or legal guardian who agrees to these Terms</li>
+              <li>You must be at least <strong>18 years of age</strong> to create a MediFamily account</li>
+              <li>If you are between 13 and 18, you may use MediFamily only under the supervision and with the consent of a parent or legal guardian who agrees to these Terms</li>
               <li>By creating an account, you represent that the information you provide is accurate and complete</li>
               <li>If you add family members (including children) to your account, you represent that you are their parent, legal guardian, or have their authorization to manage their health records</li>
             </ul>
@@ -57,7 +57,7 @@ export default function TermsOfService() {
           {/* ── 3. Service Description ── */}
           <section>
             <h2>3. Description of Service</h2>
-            <p>MediLog is a free, open-source, offline-first family health record management application that allows you to:</p>
+            <p>MediFamily is a free, open-source, offline-first family health record management application that allows you to:</p>
             <ul className="list-disc pl-6 space-y-1">
               <li>Store and manage health records for your family members</li>
               <li>Scan prescriptions using AI-powered text extraction</li>
@@ -78,13 +78,13 @@ export default function TermsOfService() {
             <div className="bg-red-50 border-2 border-red-300 rounded-xl p-6">
               <p className="font-bold text-red-900 text-lg mb-3">CRITICAL: READ THIS CAREFULLY</p>
               <ul className="list-disc pl-6 space-y-2 text-red-800">
-                <li>MediLog is a <strong>health record management tool</strong>. It is <strong>NOT</strong> a medical device, diagnostic tool, or clinical system.</li>
+                <li>MediFamily is a <strong>health record management tool</strong>. It is <strong>NOT</strong> a medical device, diagnostic tool, or clinical system.</li>
                 <li>The AI-powered features (AI Doctor Chat, Prescription Scanner, Lab Report Analyzer, Medicine Identifier) provide <strong>general health information only</strong>. They are <strong>NOT</strong> a substitute for professional medical advice, diagnosis, or treatment.</li>
                 <li>AI-generated outputs <strong>may contain errors, inaccuracies, or incomplete information</strong>. They should <strong>always be verified by a qualified healthcare professional</strong> before acting on them.</li>
-                <li>The AI features are powered by Google Gemini AI and are <strong>not reviewed or endorsed by medical professionals</strong> within MediLog.</li>
-                <li><strong>Never disregard professional medical advice</strong> or delay seeking medical treatment because of information provided by MediLog.</li>
-                <li><strong>In a medical emergency</strong>, call your local emergency services (112 in India) or visit the nearest hospital immediately. Do not rely on MediLog in emergencies.</li>
-                <li>Per India&apos;s Telemedicine Practice Guidelines (2020), AI/ML platforms are <strong>prohibited from prescribing medication</strong>. MediLog&apos;s AI features do not prescribe — they only provide general informational guidance.</li>
+                <li>The AI features are powered by Google Gemini AI and are <strong>not reviewed or endorsed by medical professionals</strong> within MediFamily.</li>
+                <li><strong>Never disregard professional medical advice</strong> or delay seeking medical treatment because of information provided by MediFamily.</li>
+                <li><strong>In a medical emergency</strong>, call your local emergency services (112 in India) or visit the nearest hospital immediately. Do not rely on MediFamily in emergencies.</li>
+                <li>Per India&apos;s Telemedicine Practice Guidelines (2020), AI/ML platforms are <strong>prohibited from prescribing medication</strong>. MediFamily&apos;s AI features do not prescribe — they only provide general informational guidance.</li>
               </ul>
             </div>
           </section>
@@ -107,11 +107,11 @@ export default function TermsOfService() {
           <section>
             <h2>6. Your Data and Content</h2>
             <ul className="list-disc pl-6 space-y-2">
-              <li><strong>Ownership:</strong> All health records, personal information, and content you create in MediLog <strong>belong to you</strong>. We do not claim any ownership or intellectual property rights over your data.</li>
-              <li><strong>Accuracy:</strong> You are responsible for the accuracy, completeness, and legality of the health records and information you enter. MediLog stores data as you provide it and does not verify its accuracy.</li>
+              <li><strong>Ownership:</strong> All health records, personal information, and content you create in MediFamily <strong>belong to you</strong>. We do not claim any ownership or intellectual property rights over your data.</li>
+              <li><strong>Accuracy:</strong> You are responsible for the accuracy, completeness, and legality of the health records and information you enter. MediFamily stores data as you provide it and does not verify its accuracy.</li>
               <li><strong>Export:</strong> You can export your data at any time in JSON or CSV format from within the app.</li>
               <li><strong>Deletion:</strong> You can delete individual records from within the app. For complete account and data deletion, contact us at <a href="mailto:sandeep@2xg.in" className="text-blue-600 hover:underline">sandeep@2xg.in</a>.</li>
-              <li><strong>License:</strong> By using MediLog, you grant us a limited, non-exclusive license to process your data solely for the purpose of providing the Service (storing records, syncing data, processing AI queries). This license terminates when you delete your account.</li>
+              <li><strong>License:</strong> By using MediFamily, you grant us a limited, non-exclusive license to process your data solely for the purpose of providing the Service (storing records, syncing data, processing AI queries). This license terminates when you delete your account.</li>
             </ul>
             <p>For complete details on how we handle your data, see our <Link href="/privacy" className="text-blue-600 hover:underline">Privacy Policy</Link>.</p>
           </section>
@@ -137,7 +137,7 @@ export default function TermsOfService() {
           {/* ── 8. Pricing ── */}
           <section>
             <h2>8. Pricing</h2>
-            <p>MediLog is currently <strong>100% free</strong> with no hidden charges, no paid plans, no premium features, and no in-app purchases.</p>
+            <p>MediFamily is currently <strong>100% free</strong> with no hidden charges, no paid plans, no premium features, and no in-app purchases.</p>
             <p>If we introduce paid features in the future:</p>
             <ul className="list-disc pl-6 space-y-1">
               <li>Existing free features will remain free</li>
@@ -149,7 +149,7 @@ export default function TermsOfService() {
           {/* ── 9. AI Features ── */}
           <section>
             <h2>9. AI-Powered Features</h2>
-            <p>MediLog uses <strong>Google Gemini AI</strong> (models: gemini-2.5-flash, gemini-2.5-pro, gemini-3-flash-preview) to power several features. By using these features, you acknowledge that:</p>
+            <p>MediFamily uses <strong>Google Gemini AI</strong> (models: gemini-2.5-flash, gemini-2.5-pro, gemini-3-flash-preview) to power several features. By using these features, you acknowledge that:</p>
             <ul className="list-disc pl-6 space-y-2">
               <li>AI outputs are <strong>algorithmically generated</strong> and may be inaccurate, incomplete, or outdated</li>
               <li>Health data you submit to AI features (prescription images, symptoms, lab reports, medicine photos) is <strong>sent to Google&apos;s servers</strong> for processing</li>
@@ -165,31 +165,31 @@ export default function TermsOfService() {
           <section>
             <h2>10. Intellectual Property</h2>
             <ul className="list-disc pl-6 space-y-1">
-              <li>MediLog is an <strong>open-source project</strong> — source code is available at <a href="https://github.com/Mrsandeep27/MEDILOG" className="text-blue-600 hover:underline" target="_blank" rel="noopener noreferrer">GitHub</a> under its respective license</li>
-              <li>The MediLog name, logo, and branding are proprietary and may not be used without our written permission</li>
+              <li>MediFamily is an <strong>open-source project</strong> — source code is available at <a href="https://github.com/Mrsandeep27/MEDIFAMILY" className="text-blue-600 hover:underline" target="_blank" rel="noopener noreferrer">GitHub</a> under its respective license</li>
+              <li>The MediFamily name, logo, and branding are proprietary and may not be used without our written permission</li>
               <li>All health records and personal data you create <strong>belong to you</strong></li>
-              <li>Third-party libraries, services, and content used in MediLog are subject to their respective licenses and terms</li>
+              <li>Third-party libraries, services, and content used in MediFamily are subject to their respective licenses and terms</li>
             </ul>
           </section>
 
           {/* ── 11. Third-Party Services ── */}
           <section>
             <h2>11. Third-Party Services</h2>
-            <p>MediLog integrates with third-party services including Supabase (database), Google Gemini AI (AI features), and Vercel (hosting). Your use of MediLog involves interaction with these services, which are governed by their own terms and privacy policies.</p>
-            <p>We are not responsible for the availability, accuracy, or practices of third-party services. If a third-party service experiences downtime, certain MediLog features may be temporarily unavailable.</p>
+            <p>MediFamily integrates with third-party services including Supabase (database), Google Gemini AI (AI features), and Vercel (hosting). Your use of MediFamily involves interaction with these services, which are governed by their own terms and privacy policies.</p>
+            <p>We are not responsible for the availability, accuracy, or practices of third-party services. If a third-party service experiences downtime, certain MediFamily features may be temporarily unavailable.</p>
           </section>
 
           {/* ── 12. Offline & Browser Storage ── */}
           <section>
             <h2>12. Offline Mode and Browser Storage</h2>
-            <p>MediLog is designed to work offline. You should be aware of the following:</p>
+            <p>MediFamily is designed to work offline. You should be aware of the following:</p>
             <ul className="list-disc pl-6 space-y-2">
               <li>Your health records are stored locally in your browser&apos;s <strong>IndexedDB</strong> storage</li>
               <li><strong>Clearing your browser data</strong> (cache, cookies, site data) <strong>will permanently delete your local health records</strong></li>
               <li>Some browsers (particularly Safari on iOS) may <strong>automatically evict IndexedDB data</strong> under storage pressure if the PWA hasn&apos;t been used recently</li>
               <li>We <strong>strongly recommend</strong> keeping cloud sync enabled to maintain a backup of your data</li>
               <li>The PWA updates automatically via Service Workers — you will always have the latest version when online</li>
-              <li>MediLog works best on modern browsers (Chrome, Edge, Firefox, Safari). We do not guarantee compatibility with older browsers.</li>
+              <li>MediFamily works best on modern browsers (Chrome, Edge, Firefox, Safari). We do not guarantee compatibility with older browsers.</li>
             </ul>
           </section>
 
@@ -204,7 +204,7 @@ export default function TermsOfService() {
                 <li>WARRANTIES REGARDING THE ACCURACY, RELIABILITY, OR COMPLETENESS OF ANY AI-GENERATED CONTENT</li>
                 <li>WARRANTIES THAT YOUR DATA WILL NOT BE LOST DUE TO BROWSER STORAGE LIMITATIONS, DEVICE FAILURE, OR SERVICE INTERRUPTIONS</li>
               </ul>
-              <p className="mt-3">No advice or information, whether oral or written, obtained from MediLog shall create any warranty not expressly stated in these Terms.</p>
+              <p className="mt-3">No advice or information, whether oral or written, obtained from MediFamily shall create any warranty not expressly stated in these Terms.</p>
             </div>
           </section>
 
@@ -213,8 +213,8 @@ export default function TermsOfService() {
             <h2>14. Limitation of Liability</h2>
             <p>To the maximum extent permitted by applicable law:</p>
             <ul className="list-disc pl-6 space-y-2">
-              <li>MediLog and its creator shall <strong>not be liable</strong> for any indirect, incidental, special, consequential, or punitive damages arising from your use of (or inability to use) the Service</li>
-              <li>We are <strong>not liable for any medical decisions</strong> you make based on information provided by MediLog&apos;s AI features or any other part of the Service</li>
+              <li>MediFamily and its creator shall <strong>not be liable</strong> for any indirect, incidental, special, consequential, or punitive damages arising from your use of (or inability to use) the Service</li>
+              <li>We are <strong>not liable for any medical decisions</strong> you make based on information provided by MediFamily&apos;s AI features or any other part of the Service</li>
               <li>We are <strong>not liable for any data loss</strong> resulting from device failure, browser limitations, IndexedDB eviction, third-party service outages, or circumstances beyond our reasonable control</li>
               <li>We are <strong>not liable for any actions</strong> taken by third-party services (Supabase, Google, Vercel) in processing your data</li>
               <li>Our <strong>total aggregate liability</strong> for all claims related to the Service shall not exceed the total amount you have paid us in the 12 months preceding the claim (which is currently zero, as the Service is free)</li>
@@ -225,7 +225,7 @@ export default function TermsOfService() {
           {/* ── 15. Indemnification ── */}
           <section>
             <h2>15. Indemnification</h2>
-            <p>You agree to indemnify, defend, and hold harmless MediLog, its creator, and affiliates from and against any claims, damages, losses, liabilities, costs, and expenses (including reasonable legal fees) arising from:</p>
+            <p>You agree to indemnify, defend, and hold harmless MediFamily, its creator, and affiliates from and against any claims, damages, losses, liabilities, costs, and expenses (including reasonable legal fees) arising from:</p>
             <ul className="list-disc pl-6 space-y-1">
               <li>Your use of or access to the Service</li>
               <li>Your violation of these Terms</li>
@@ -239,7 +239,7 @@ export default function TermsOfService() {
           <section>
             <h2>16. Termination</h2>
             <ul className="list-disc pl-6 space-y-1">
-              <li>You can stop using MediLog at any time</li>
+              <li>You can stop using MediFamily at any time</li>
               <li>You can sign out to remove local data from your device</li>
               <li>You can request complete account and cloud data deletion by contacting us</li>
               <li>We reserve the right to suspend or terminate accounts that violate these Terms, with or without notice</li>
@@ -295,7 +295,7 @@ export default function TermsOfService() {
             <p>Nothing in these Terms creates an employer-employee, agency, partnership, or joint venture relationship between you and us.</p>
 
             <h3>Electronic Communications</h3>
-            <p>By using MediLog, you consent to receiving electronic communications from us (email, in-app notifications). You agree that electronic notices satisfy any legal requirement for written communication.</p>
+            <p>By using MediFamily, you consent to receiving electronic communications from us (email, in-app notifications). You agree that electronic notices satisfy any legal requirement for written communication.</p>
           </section>
 
           {/* ── 20. Modifications ── */}
@@ -305,7 +305,7 @@ export default function TermsOfService() {
             <ul className="list-disc pl-6 space-y-1">
               <li>The updated Terms will be posted on this page with a new &quot;Last updated&quot; date</li>
               <li>For material changes, we will provide notice via email or in-app notification at least <strong>15 days</strong> before the changes take effect</li>
-              <li>Your continued use of MediLog after the effective date constitutes acceptance</li>
+              <li>Your continued use of MediFamily after the effective date constitutes acceptance</li>
               <li>If you disagree with the updated Terms, you should stop using the Service and delete your account</li>
             </ul>
           </section>
@@ -314,7 +314,7 @@ export default function TermsOfService() {
           <section>
             <h2>21. Modifications to Service</h2>
             <p>We reserve the right to modify, suspend, or discontinue any part of the Service at any time, with or without notice. We shall not be liable to you or any third party for any modification, suspension, or discontinuation of the Service.</p>
-            <p>As MediLog is an open-source project, the source code will remain publicly available on GitHub even if the hosted service is discontinued.</p>
+            <p>As MediFamily is an open-source project, the source code will remain publicly available on GitHub even if the hosted service is discontinued.</p>
           </section>
 
           {/* ── 22. Contact ── */}
@@ -324,7 +324,7 @@ export default function TermsOfService() {
             <div className="bg-gray-50 rounded-xl p-6 border border-gray-200 mt-4">
               <p><strong>Name:</strong> Sandeep Pandey</p>
               <p><strong>Email:</strong> <a href="mailto:sandeep@2xg.in" className="text-blue-600 hover:underline">sandeep@2xg.in</a></p>
-              <p><strong>GitHub:</strong> <a href="https://github.com/Mrsandeep27/MEDILOG/issues" className="text-blue-600 hover:underline" target="_blank" rel="noopener noreferrer">github.com/Mrsandeep27/MEDILOG/issues</a></p>
+              <p><strong>GitHub:</strong> <a href="https://MEDIFAMILY Issues" className="text-blue-600 hover:underline" target="_blank" rel="noopener noreferrer">MEDIFAMILY Issues</a></p>
               <p><strong>Location:</strong> Bangalore, Karnataka, India</p>
             </div>
           </section>

@@ -91,7 +91,7 @@ export function Problems() {
               style={{ originX: 0 }}
             />
             <span className="relative z-10">
-              MediLog sab solve karta hai — aur woh bhi bina internet ke!
+              MediFamily sab solve karta hai — aur woh bhi bina internet ke!
             </span>
           </p>
         </motion.div>

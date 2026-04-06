@@ -14,7 +14,7 @@ export default function PrivacyPolicy() {
             <ArrowLeft className="h-4 w-4" />
             <span className="text-sm">Back</span>
           </Link>
-          <Image src="/logo-gradient.jpeg" alt="MediLog" width={100} height={32} className="h-8 w-auto" />
+          <Image src="/logo-gradient.jpeg" alt="MediFamily" width={100} height={32} className="h-8 w-auto" />
         </div>
       </nav>
 
@@ -34,13 +34,13 @@ export default function PrivacyPolicy() {
           <section>
             <h2>1. Who We Are</h2>
             <p>
-              MediLog is a free, open-source, offline-first family health record management application developed by <strong>Sandeep Pandey</strong>, operating under the name <strong>2XG</strong>, based in Bangalore, Karnataka, India.
+              MediFamily is a free, open-source, offline-first family health record management application developed by <strong>Sandeep Pandey</strong>, operating under the name <strong>2XG</strong>, based in Bangalore, Karnataka, India.
             </p>
             <p>
               For the purposes of the Digital Personal Data Protection Act, 2023 (&quot;DPDPA&quot;) and the Information Technology Act, 2000 (&quot;IT Act&quot;), we act as the <strong>Data Fiduciary</strong> — meaning we determine the purpose and means of processing your personal data.
             </p>
             <p>
-              This Privacy Policy explains how we collect, use, store, share, and protect your personal and health information. Because MediLog handles sensitive health data, we take your privacy extremely seriously.
+              This Privacy Policy explains how we collect, use, store, share, and protect your personal and health information. Because MediFamily handles sensitive health data, we take your privacy extremely seriously.
             </p>
           </section>
 
@@ -129,7 +129,7 @@ export default function PrivacyPolicy() {
               <li><strong>Data synchronization:</strong> Syncing local data to cloud for backup and cross-device access</li>
               <li><strong>Service improvement:</strong> Debugging errors and monitoring AI feature costs</li>
             </ul>
-            <p>We do <strong>not</strong> use your data for advertising, profiling, behavioral targeting, or any purpose beyond delivering the MediLog service.</p>
+            <p>We do <strong>not</strong> use your data for advertising, profiling, behavioral targeting, or any purpose beyond delivering the MediFamily service.</p>
           </section>
 
           {/* ── 5. How We Store Data ── */}
@@ -137,7 +137,7 @@ export default function PrivacyPolicy() {
             <h2>5. How and Where We Store Your Data</h2>
 
             <h3>A. Local Storage (Your Device)</h3>
-            <p>MediLog is offline-first. Most of your data lives on your device:</p>
+            <p>MediFamily is offline-first. Most of your data lives on your device:</p>
             <ul className="list-disc pl-6 space-y-1">
               <li><strong>IndexedDB</strong> (via Dexie.js): All health records, family profiles, medicines, reminders, vitals</li>
               <li><strong>localStorage:</strong> Session data (email, name, user ID), app settings (language, theme, PIN hash, notification preferences)</li>
@@ -159,7 +159,7 @@ export default function PrivacyPolicy() {
               <li><strong>Sync frequency:</strong> Automatically every 30 minutes when online, or manually triggered by you</li>
               <li><strong>Encryption in transit:</strong> All connections use HTTPS/TLS 1.2+</li>
               <li><strong>Encryption at rest:</strong> PostgreSQL encryption at rest (AES-256) via Supabase/AWS</li>
-              <li><strong>Access control:</strong> Row Level Security (RLS) — every database query is scoped to your user ID. You can only access your own data. No other user or MediLog employee can access your records.</li>
+              <li><strong>Access control:</strong> Row Level Security (RLS) — every database query is scoped to your user ID. You can only access your own data. No other user or MediFamily employee can access your records.</li>
             </ul>
 
             <h3>C. Data NOT Stored Anywhere</h3>
@@ -173,7 +173,7 @@ export default function PrivacyPolicy() {
           {/* ── 6. Third-Party Services ── */}
           <section>
             <h2>6. Third-Party Services and Data Sharing</h2>
-            <p>We share your data only with the following services, strictly for delivering the MediLog service:</p>
+            <p>We share your data only with the following services, strictly for delivering the MediFamily service:</p>
 
             <div className="space-y-6 mt-4">
               <div className="bg-gray-50 rounded-xl p-6 border border-gray-200">
@@ -234,7 +234,7 @@ export default function PrivacyPolicy() {
               <li><strong>Not shared:</strong> Your email, user ID, reminders, app settings</li>
               <li>Links expire after a configurable duration (default: 24 hours)</li>
               <li>You can revoke any share link at any time</li>
-              <li>Doctors see a read-only view — no MediLog account needed to view</li>
+              <li>Doctors see a read-only view — no MediFamily account needed to view</li>
               <li>Access is logged (timestamp only, no IP tracking)</li>
             </ul>
 
@@ -337,7 +337,7 @@ export default function PrivacyPolicy() {
           {/* ── 13. Cookies ── */}
           <section>
             <h2>13. Cookies and Tracking Technologies</h2>
-            <p>MediLog uses only <strong>strictly essential cookies</strong>:</p>
+            <p>MediFamily uses only <strong>strictly essential cookies</strong>:</p>
             <ul className="list-disc pl-6 space-y-1">
               <li><strong>Supabase session cookie:</strong> Required for authentication and keeping you signed in. This is a first-party, httpOnly, secure cookie.</li>
             </ul>
@@ -356,7 +356,7 @@ export default function PrivacyPolicy() {
             <h2>14. Children&apos;s Privacy</h2>
             <p>Under the DPDPA 2023, a &quot;child&quot; is any person under <strong>18 years of age</strong>.</p>
             <ul className="list-disc pl-6 space-y-1">
-              <li>MediLog does not allow children under 18 to create their own accounts</li>
+              <li>MediFamily does not allow children under 18 to create their own accounts</li>
               <li>Family members (including children) are added and managed exclusively by the parent or legal guardian who holds the account</li>
               <li>Children&apos;s health records are accessible only to the account holder (parent/guardian)</li>
               <li>We do <strong>not</strong> engage in behavioral monitoring or targeted advertising directed at children</li>
@@ -370,7 +370,7 @@ export default function PrivacyPolicy() {
             <div className="bg-red-50 border border-red-200 rounded-xl p-5">
               <p className="font-semibold text-red-800 mb-2">Important Disclosure About AI Features</p>
               <ul className="list-disc pl-6 space-y-2 text-sm text-red-800">
-                <li>MediLog uses <strong>Google Gemini AI</strong> to power features like prescription scanning, AI health chat, lab report analysis, and medicine identification</li>
+                <li>MediFamily uses <strong>Google Gemini AI</strong> to power features like prescription scanning, AI health chat, lab report analysis, and medicine identification</li>
                 <li>When you use these features, relevant health data (images, symptoms, patient context) is <strong>sent to Google&apos;s servers for processing</strong></li>
                 <li>AI-generated responses are <strong>for informational purposes only</strong> and do <strong>not</strong> constitute medical advice, diagnosis, or treatment</li>
                 <li>AI outputs may contain <strong>errors or inaccuracies</strong> — always verify with a qualified healthcare professional</li>
@@ -401,7 +401,7 @@ export default function PrivacyPolicy() {
             </ul>
 
             <h3>HIPAA (US)</h3>
-            <p>MediLog does <strong>not</strong> claim HIPAA compliance. We have no Business Associate Agreement (BAA) with Supabase or Google. MediLog is not intended for use by US healthcare providers as an Electronic Health Record (EHR) system.</p>
+            <p>MediFamily does <strong>not</strong> claim HIPAA compliance. We have no Business Associate Agreement (BAA) with Supabase or Google. MediFamily is not intended for use by US healthcare providers as an Electronic Health Record (EHR) system.</p>
           </section>
 
           {/* ── 17. Changes ── */}
@@ -411,7 +411,7 @@ export default function PrivacyPolicy() {
             <ul className="list-disc pl-6 space-y-1">
               <li>We will update the &quot;Last updated&quot; date at the top of this page</li>
               <li>For significant changes, we will notify you via email or in-app notification</li>
-              <li>Continued use of MediLog after changes constitutes acceptance of the updated policy</li>
+              <li>Continued use of MediFamily after changes constitutes acceptance of the updated policy</li>
               <li>If you do not agree with the changes, you may delete your account</li>
             </ul>
           </section>
@@ -434,7 +434,7 @@ export default function PrivacyPolicy() {
             <h2>19. Contact Us</h2>
             <ul className="list-disc pl-6 space-y-1">
               <li><strong>Email:</strong> <a href="mailto:sandeep@2xg.in" className="text-blue-600 hover:underline">sandeep@2xg.in</a></li>
-              <li><strong>GitHub:</strong> <a href="https://github.com/Mrsandeep27/MEDILOG/issues" className="text-blue-600 hover:underline" target="_blank" rel="noopener noreferrer">github.com/Mrsandeep27/MEDILOG/issues</a></li>
+              <li><strong>GitHub:</strong> <a href="https://MEDIFAMILY Issues" className="text-blue-600 hover:underline" target="_blank" rel="noopener noreferrer">MEDIFAMILY Issues</a></li>
               <li><strong>Location:</strong> Bangalore, Karnataka, India</li>
             </ul>
           </section>

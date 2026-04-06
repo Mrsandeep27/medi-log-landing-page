@@ -39,7 +39,7 @@ export function Comparison() {
           className="text-center mb-6 md:mb-16"
         >
           <h2 className="text-2xl md:text-4xl font-bold text-gray-900 mb-2">
-            <span className="gradient-underline visible">MediLog vs Purana Tarika</span>
+            <span className="gradient-underline visible">MediFamily vs Purana Tarika</span>
           </h2>
         </motion.div>
 
@@ -78,7 +78,7 @@ export function Comparison() {
           className="mt-6 md:mt-12 glass rounded-xl p-4 md:p-8 text-center border-l-4 border-l-indigo-500"
         >
           <p className="text-gray-900 text-sm md:text-xl font-semibold">
-            MediLog = Parivaar ki health, aapke haath mein
+            MediFamily = Parivaar ki health, aapke haath mein
           </p>
         </motion.div>
       </div>

@@ -4,7 +4,7 @@ import { Building2, Star, Shield, Gift, Stethoscope, Smartphone, ShieldCheck } f
 import { type ReactNode } from 'react'
 
 const trustItems: { icon: ReactNode; text: string }[] = [
-  { icon: <Building2 className="h-4 w-4" />, text: '500+ Families Trust MediLog' },
+  { icon: <Building2 className="h-4 w-4" />, text: '500+ Families Trust MediFamily' },
   { icon: <Star className="h-4 w-4 fill-yellow-400 text-yellow-400" />, text: '4.8 Rating' },
   { icon: <Shield className="h-4 w-4" />, text: 'Data Sirf Aapke Phone Mein' },
   { icon: null, text: 'Made in India, For India' },

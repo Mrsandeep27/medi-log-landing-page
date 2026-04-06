@@ -96,7 +96,7 @@ export function Hero() {
               <div className="absolute top-0 left-1/2 -translate-x-1/2 bg-black rounded-b-xl md:rounded-b-2xl w-20 md:w-32 h-3 md:h-5 z-10" />
               <Image
                 src="/app-home.jpg"
-                alt="MediLog App — Family health record dashboard showing prescriptions, reminders, and family members"
+                alt="MediFamily App — Family health record dashboard showing prescriptions, reminders, and family members"
                 fill
                 priority
                 className="object-cover object-top"

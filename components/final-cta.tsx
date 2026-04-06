@@ -23,7 +23,7 @@ export function FinalCTA() {
 
         {/* Social proof */}
         <p className="text-blue-600 text-sm md:text-base mb-10">
-          Join 500+ families already using MediLog
+          Join 500+ families already using MediFamily
         </p>
 
         {/* CTA Button with pulse rings */}
@@ -44,7 +44,7 @@ export function FinalCTA() {
             {/* Shimmer overlay on hover */}
             <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/20 to-transparent opacity-0 group-hover:opacity-30 animate-shimmer" />
             <span className="relative flex items-center justify-center gap-2">
-              MediLog Open Karo
+              MediFamily Open Karo
             </span>
           </motion.a>
         </div>
