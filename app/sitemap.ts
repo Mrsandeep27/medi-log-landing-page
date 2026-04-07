@@ -1,33 +1,35 @@
 import type { MetadataRoute } from 'next'
 
+const baseUrl = 'https://medifamily.in'
+
 export default function sitemap(): MetadataRoute.Sitemap {
   return [
     {
-      url: 'https://medi-log-landing-page.vercel.app',
+      url: baseUrl,
       lastModified: new Date(),
       changeFrequency: 'weekly',
       priority: 1,
     },
     {
-      url: 'https://medi-log-landing-page.vercel.app/about',
+      url: `${baseUrl}/about`,
       lastModified: new Date(),
       changeFrequency: 'monthly',
       priority: 0.7,
     },
     {
-      url: 'https://medi-log-landing-page.vercel.app/contact',
+      url: `${baseUrl}/contact`,
       lastModified: new Date(),
       changeFrequency: 'monthly',
       priority: 0.5,
     },
     {
-      url: 'https://medi-log-landing-page.vercel.app/privacy',
+      url: `${baseUrl}/privacy`,
       lastModified: new Date(),
       changeFrequency: 'monthly',
       priority: 0.5,
     },
     {
-      url: 'https://medi-log-landing-page.vercel.app/terms',
+      url: `${baseUrl}/terms`,
       lastModified: new Date(),
       changeFrequency: 'monthly',
       priority: 0.5,

@@ -5,7 +5,7 @@ import './globals.css'
 
 const inter = Inter({ subsets: ['latin'] })
 
-const siteUrl = 'https://medi-log-landing-page.vercel.app'
+const siteUrl = 'https://medifamily.in'
 
 export const metadata: Metadata = {
   title: 'MediFamily — Family Health Record App | Free Prescription Scanner & Medicine Reminder',
