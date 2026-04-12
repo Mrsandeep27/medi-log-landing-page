@@ -21,27 +21,29 @@ const problems: { icon: ReactNode; title: string; description: string }[] = [
 
 export function Problems() {
   return (
-    <section className="py-12 md:py-20 px-4 bg-gradient-to-b from-white to-gray-50">
+    <section className="py-8 md:py-20 px-4 bg-gradient-to-b from-white to-gray-50">
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-8 md:mb-16">
-          <h2 className="text-2xl md:text-4xl font-bold text-gray-900 mb-2">
+          <h2 className="text-xl md:text-4xl font-bold text-gray-900 mb-2">
             <span className="gradient-underline visible">Sound Familiar?</span>
           </h2>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-6 mb-8 md:mb-12">
+        <div className="flex md:grid md:grid-cols-3 gap-3 md:gap-6 mb-6 md:mb-12 overflow-x-auto snap-x snap-mandatory no-scrollbar -mx-4 px-4 md:mx-0 md:px-0 pb-2 md:pb-0">
           {problems.map((problem, i) => (
             <div
               key={i}
-              className="glass rounded-xl p-5 md:p-6 border border-red-200 hover:border-red-300 transition-colors"
+              className="glass rounded-xl p-4 md:p-6 border border-red-200 hover:border-red-300 transition-colors min-w-[260px] md:min-w-0 snap-center flex-shrink-0"
             >
-              <div className="w-10 h-10 md:w-12 md:h-12 rounded-xl bg-red-50 flex items-center justify-center mb-3 md:mb-4">
-                {problem.icon}
+              <div className="flex items-center gap-3 mb-2 md:mb-0 md:block">
+                <div className="w-9 h-9 md:w-12 md:h-12 rounded-xl bg-red-50 flex items-center justify-center flex-shrink-0 md:mb-4">
+                  {problem.icon}
+                </div>
+                <h3 className="text-sm md:text-lg font-bold text-gray-900">
+                  {problem.title}
+                </h3>
               </div>
-              <h3 className="text-base md:text-lg font-bold text-gray-900 mb-2">
-                {problem.title}
-              </h3>
-              <p className="text-gray-600 text-sm md:text-base">{problem.description}</p>
+              <p className="text-gray-600 text-xs md:text-base">{problem.description}</p>
             </div>
           ))}
         </div>
