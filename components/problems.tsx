@@ -29,21 +29,23 @@ export function Problems() {
           </h2>
         </div>
 
-        <div className="flex md:grid md:grid-cols-3 gap-3 md:gap-6 mb-6 md:mb-12 overflow-x-auto snap-x snap-mandatory no-scrollbar -mx-4 px-4 md:mx-0 md:px-0 pb-2 md:pb-0">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-2 md:gap-6 mb-4 md:mb-12">
           {problems.map((problem, i) => (
             <div
               key={i}
-              className="glass rounded-xl p-4 md:p-6 border border-red-200 hover:border-red-300 transition-colors min-w-[260px] md:min-w-0 snap-center flex-shrink-0"
+              className="glass rounded-xl p-3 md:p-6 border border-red-200 hover:border-red-300 transition-colors"
             >
-              <div className="flex items-center gap-3 mb-2 md:mb-0 md:block">
-                <div className="w-9 h-9 md:w-12 md:h-12 rounded-xl bg-red-50 flex items-center justify-center flex-shrink-0 md:mb-4">
+              <div className="flex items-center gap-3 md:block">
+                <div className="w-8 h-8 md:w-12 md:h-12 rounded-xl bg-red-50 flex items-center justify-center flex-shrink-0 md:mb-4">
                   {problem.icon}
                 </div>
-                <h3 className="text-sm md:text-lg font-bold text-gray-900">
-                  {problem.title}
-                </h3>
+                <div>
+                  <h3 className="text-sm md:text-lg font-bold text-gray-900">
+                    {problem.title}
+                  </h3>
+                  <p className="text-gray-600 text-xs md:text-base">{problem.description}</p>
+                </div>
               </div>
-              <p className="text-gray-600 text-xs md:text-base">{problem.description}</p>
             </div>
           ))}
         </div>
