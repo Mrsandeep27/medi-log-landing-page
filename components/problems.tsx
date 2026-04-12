@@ -1,6 +1,3 @@
-'use client'
-
-import { motion } from 'motion/react'
 import { FileX, Pill, AlertTriangle } from 'lucide-react'
 import { type ReactNode } from 'react'
 
@@ -26,26 +23,16 @@ export function Problems() {
   return (
     <section className="py-12 md:py-20 px-4 bg-gradient-to-b from-white to-gray-50">
       <div className="max-w-6xl mx-auto">
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.5 }}
-          viewport={{ once: true }}
-          className="text-center mb-8 md:mb-16"
-        >
+        <div className="text-center mb-8 md:mb-16">
           <h2 className="text-2xl md:text-4xl font-bold text-gray-900 mb-2">
             <span className="gradient-underline visible">Sound Familiar?</span>
           </h2>
-        </motion.div>
+        </div>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-6 mb-8 md:mb-12">
           {problems.map((problem, i) => (
-            <motion.div
+            <div
               key={i}
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.4, delay: i * 0.1 }}
-              viewport={{ once: true }}
               className="glass rounded-xl p-5 md:p-6 border border-red-200 hover:border-red-300 transition-colors"
             >
               <div className="w-10 h-10 md:w-12 md:h-12 rounded-xl bg-red-50 flex items-center justify-center mb-3 md:mb-4">
@@ -55,21 +42,15 @@ export function Problems() {
                 {problem.title}
               </h3>
               <p className="text-gray-600 text-sm md:text-base">{problem.description}</p>
-            </motion.div>
+            </div>
           ))}
         </div>
 
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.5, delay: 0.3 }}
-          viewport={{ once: true }}
-          className="text-center"
-        >
+        <div className="text-center">
           <p className="text-base md:text-xl text-gray-900 font-semibold">
             MediFamily fixes all of this — and works without internet.
           </p>
-        </motion.div>
+        </div>
       </div>
     </section>
   )

@@ -1,70 +1,60 @@
-'use client'
+import { Check, X, Minus } from 'lucide-react'
 
-import { motion } from 'motion/react'
-import { X, Check } from 'lucide-react'
-
-const comparisons = [
-  {
-    old: 'Prescriptions lost in drawers',
-    new: 'AI scans & stores — always searchable',
-  },
-  {
-    old: 'Forget which medicine, which dose',
-    new: 'Reminders + full medicine list per family member',
-  },
-  {
-    old: 'WhatsApp pe doctor ko reports bhejna',
-    new: 'QR code — doctor scans, sees everything',
-  },
-  {
-    old: 'Internet chahiye har cheez ke liye',
-    new: 'Offline works. Sync when you\'re back online.',
-  },
-  {
-    old: 'Alag-alag apps for family members',
-    new: 'One login. Whole family. One app.',
-  },
+const features = [
+  { name: 'Family health profiles', medifamily: true, practo: false, onemg: false, apollo: false },
+  { name: 'Works offline', medifamily: true, practo: false, onemg: false, apollo: false },
+  { name: 'Hindi prescription scanner', medifamily: true, practo: false, onemg: false, apollo: false },
+  { name: '100% free (no premium)', medifamily: true, practo: false, onemg: false, apollo: false },
+  { name: 'Emergency health card', medifamily: true, practo: false, onemg: false, apollo: false },
+  { name: 'Medicine reminders', medifamily: true, practo: true, onemg: true, apollo: true },
+  { name: 'Doctor sharing via QR', medifamily: true, practo: false, onemg: false, apollo: false },
+  { name: 'No ads, no data selling', medifamily: true, practo: false, onemg: false, apollo: false },
 ]
+
+function Cell({ value }: { value: boolean }) {
+  return value
+    ? <Check className="h-4 w-4 text-green-600 mx-auto" />
+    : <X className="h-4 w-4 text-gray-300 mx-auto" />
+}
 
 export function Comparison() {
   return (
     <section className="py-12 md:py-20 px-4 bg-gradient-to-b from-white to-gray-50">
-      <div className="max-w-6xl mx-auto">
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.5 }}
-          viewport={{ once: true }}
-          className="text-center mb-6 md:mb-16"
-        >
+      <div className="max-w-4xl mx-auto">
+        <div className="text-center mb-8 md:mb-12">
           <h2 className="text-2xl md:text-4xl font-bold text-gray-900 mb-2">
-            <span className="gradient-underline visible">Old Way vs MediFamily</span>
+            <span className="gradient-underline visible">Why MediFamily Over Other Apps?</span>
           </h2>
-        </motion.div>
-
-        <div className="space-y-2 md:space-y-3">
-          {comparisons.map((item, i) => (
-            <motion.div
-              key={i}
-              initial={{ opacity: 0, y: 15 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.4, delay: i * 0.08 }}
-              viewport={{ once: true }}
-              className="glass rounded-lg p-3 md:p-0 md:bg-transparent md:border-0 group"
-            >
-              <div className="md:grid md:grid-cols-2 md:gap-6">
-                <div className="flex items-center gap-2 mb-1 md:mb-0 md:bg-red-50 md:border md:border-red-200 md:rounded-lg md:px-4 md:py-4">
-                  <X className="h-4 w-4 text-red-500 flex-shrink-0" />
-                  <p className="text-gray-500 text-xs md:text-base line-through decoration-red-400/40">{item.old}</p>
-                </div>
-                <div className="flex items-center gap-2 md:bg-blue-50 md:border md:border-blue-200 md:rounded-lg md:px-4 md:py-4">
-                  <Check className="h-4 w-4 text-green-500 flex-shrink-0" />
-                  <p className="text-gray-900 font-medium text-xs md:text-base">{item.new}</p>
-                </div>
-              </div>
-            </motion.div>
-          ))}
         </div>
+
+        <div className="overflow-x-auto -mx-4 px-4">
+          <table className="w-full text-sm border-collapse min-w-[500px]">
+            <thead>
+              <tr className="border-b-2 border-gray-200">
+                <th className="text-left py-3 pr-4 font-semibold text-gray-700">Feature</th>
+                <th className="py-3 px-2 font-bold text-blue-600 text-center">MediFamily</th>
+                <th className="py-3 px-2 font-medium text-gray-500 text-center">Practo</th>
+                <th className="py-3 px-2 font-medium text-gray-500 text-center">1mg</th>
+                <th className="py-3 px-2 font-medium text-gray-500 text-center">Apollo 247</th>
+              </tr>
+            </thead>
+            <tbody className="divide-y divide-gray-100">
+              {features.map((f) => (
+                <tr key={f.name} className="hover:bg-gray-50/50">
+                  <td className="py-3 pr-4 text-gray-800 font-medium">{f.name}</td>
+                  <td className="py-3 px-2 bg-blue-50/30"><Cell value={f.medifamily} /></td>
+                  <td className="py-3 px-2 text-center"><Cell value={f.practo} /></td>
+                  <td className="py-3 px-2 text-center"><Cell value={f.onemg} /></td>
+                  <td className="py-3 px-2 text-center"><Cell value={f.apollo} /></td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+
+        <p className="text-center text-xs text-gray-400 mt-4">
+          Comparison based on publicly available features as of April 2026.
+        </p>
       </div>
     </section>
   )

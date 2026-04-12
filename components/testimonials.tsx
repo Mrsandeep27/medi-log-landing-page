@@ -1,25 +1,22 @@
-'use client'
-
-import { motion } from 'motion/react'
 import { Star, MapPin, BadgeCheck } from 'lucide-react'
 
 const testimonials = [
   {
     name: 'Priya',
     city: 'Mumbai',
-    quote: "Papa ki saari reports ek jagah. Doctor impressed ho gaye jab QR se dikhaya — sab kuch 2 second mein!",
+    quote: "Mummy ki saari reports ek jagah mil gayi. Doctor ne bhi impress ho gaye jab QR se dikhaya!",
     rating: 5,
   },
   {
     name: 'Rajesh',
     city: 'Jaipur',
-    quote: 'Maa ki 5 medicines ka reminder set kiya. Pehle roz bhool jaata tha, ab notification aa jaata hai on time.',
+    quote: 'Medicine ka reminder best feature hai. Pehle roz bhool jaata tha, ab notification aa jaata hai.',
     rating: 5,
   },
   {
     name: 'Anita',
     city: 'Bangalore',
-    quote: 'Emergency mein bhai ka blood group chahiye tha. MediFamily mein ek tap mein mil gaya. Lifesaver app hai!',
+    quote: 'Emergency card se Papa ki blood group aur allergies ek tap mein mil jaati hai. Life saver hai!',
     rating: 5,
   },
 ]
@@ -32,27 +29,17 @@ export function Testimonials() {
   return (
     <section className="py-12 md:py-20 px-4 bg-gradient-to-b from-gray-50 to-white">
       <div className="max-w-6xl mx-auto">
-        <motion.div
-          initial={{ opacity: 0, y: 30 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.6 }}
-          viewport={{ once: true }}
-          className="text-center mb-8 md:mb-16"
-        >
+        <div className="text-center mb-8 md:mb-16">
           <h2 className="text-2xl md:text-4xl font-bold text-gray-900 mb-2 md:mb-4">
             <span className="gradient-underline visible">Families Love MediFamily</span>
           </h2>
-        </motion.div>
+        </div>
 
-        <div className="flex md:grid md:grid-cols-3 gap-4 md:gap-6 overflow-x-auto snap-x snap-mandatory pb-4 md:pb-0 no-scrollbar -mx-4 px-4 md:mx-0 md:px-0">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-6">
           {testimonials.map((testimonial, i) => (
-            <motion.div
+            <div
               key={i}
-              initial={{ opacity: 0, y: 30 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.5, delay: i * 0.1 }}
-              viewport={{ once: true }}
-              className="glass rounded-xl p-5 relative overflow-hidden min-w-[280px] max-w-[85vw] md:max-w-none md:min-w-0 snap-center flex-shrink-0"
+              className="glass rounded-xl p-5 relative overflow-hidden"
             >
               <div
                 className="absolute top-2 right-4 text-8xl font-serif text-blue-500/10 leading-none select-none pointer-events-none"
@@ -93,7 +80,7 @@ export function Testimonials() {
                   <BadgeCheck className="h-3 w-3" /> Verified User
                 </span>
               </div>
-            </motion.div>
+            </div>
           ))}
         </div>
       </div>
