@@ -7,36 +7,31 @@ const testimonials = [
   {
     name: 'Priya',
     city: 'Mumbai',
-    quote: "Mummy ki saari reports ek jagah mil gayi. Doctor ne bhi impress ho gaye jab QR se dikhaya!",
+    quote: "Papa ki saari reports ek jagah. Doctor impressed ho gaye jab QR se dikhaya — sab kuch 2 second mein!",
     rating: 5,
   },
   {
     name: 'Rajesh',
     city: 'Jaipur',
-    quote: 'Medicine ka reminder best feature hai. Pehle roz bhool jaata tha, ab notification aa jaata hai.',
+    quote: 'Maa ki 5 medicines ka reminder set kiya. Pehle roz bhool jaata tha, ab notification aa jaata hai on time.',
     rating: 5,
   },
   {
     name: 'Anita',
     city: 'Bangalore',
-    quote: 'AI doctor ne raat ko bataya ki paracetamol le lo — subah theek thi. Bahut helpful app hai!',
+    quote: 'Emergency mein bhai ka blood group chahiye tha. MediFamily mein ek tap mein mil gaya. Lifesaver app hai!',
     rating: 5,
   },
 ]
 
 function getInitials(name: string) {
-  return name
-    .split(' ')
-    .map((w) => w[0])
-    .join('')
-    .toUpperCase()
+  return name.split(' ').map((w) => w[0]).join('').toUpperCase()
 }
 
 export function Testimonials() {
   return (
     <section className="py-12 md:py-20 px-4 bg-gradient-to-b from-gray-50 to-white">
       <div className="max-w-6xl mx-auto">
-        {/* Section Heading */}
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -45,16 +40,10 @@ export function Testimonials() {
           className="text-center mb-8 md:mb-16"
         >
           <h2 className="text-2xl md:text-4xl font-bold text-gray-900 mb-2 md:mb-4">
-            <span className="gradient-underline visible">
-              Log Kya Keh Rahe Hain
-            </span>
+            <span className="gradient-underline visible">Families Love MediFamily</span>
           </h2>
-          <p className="text-gray-500 text-sm md:text-lg mt-4">
-            Real users, real stories
-          </p>
         </motion.div>
 
-        {/* Testimonial Cards */}
         <div className="flex md:grid md:grid-cols-3 gap-4 md:gap-6 overflow-x-auto snap-x snap-mandatory pb-4 md:pb-0 no-scrollbar -mx-4 px-4 md:mx-0 md:px-0">
           {testimonials.map((testimonial, i) => (
             <motion.div
@@ -65,7 +54,6 @@ export function Testimonials() {
               viewport={{ once: true }}
               className="glass rounded-xl p-5 relative overflow-hidden min-w-[280px] max-w-[85vw] md:max-w-none md:min-w-0 snap-center flex-shrink-0"
             >
-              {/* Large watermark quote mark */}
               <div
                 className="absolute top-2 right-4 text-8xl font-serif text-blue-500/10 leading-none select-none pointer-events-none"
                 aria-hidden="true"
@@ -73,19 +61,13 @@ export function Testimonials() {
                 &ldquo;
               </div>
 
-              {/* Avatar with Indian tricolor ring */}
               <div className="flex items-center gap-3 mb-4 relative z-10">
                 <div
                   className="w-12 h-12 rounded-full p-[2.5px] flex-shrink-0"
-                  style={{
-                    background:
-                      'linear-gradient(180deg, #FF9933 0%, #FFFFFF 50%, #138808 100%)',
-                  }}
+                  style={{ background: 'linear-gradient(180deg, #FF9933 0%, #FFFFFF 50%, #138808 100%)' }}
                 >
                   <div className="w-full h-full rounded-full bg-blue-100 flex items-center justify-center">
-                    <span className="text-sm font-bold text-blue-700">
-                      {getInitials(testimonial.name)}
-                    </span>
+                    <span className="text-sm font-bold text-blue-700">{getInitials(testimonial.name)}</span>
                   </div>
                 </div>
                 <div>
@@ -96,19 +78,16 @@ export function Testimonials() {
                 </div>
               </div>
 
-              {/* Star Rating */}
               <div className="flex gap-1 mb-4 relative z-10">
                 {Array.from({ length: testimonial.rating }).map((_, j) => (
                   <Star key={j} className="h-4 w-4 fill-yellow-400 text-yellow-400" />
                 ))}
               </div>
 
-              {/* Quote */}
               <p className="text-gray-800 mb-5 text-base italic leading-relaxed relative z-10 break-words">
                 &ldquo;{testimonial.quote}&rdquo;
               </p>
 
-              {/* Verified badge */}
               <div className="relative z-10 pt-3 border-t border-blue-200/50">
                 <span className="inline-flex items-center gap-1 text-xs font-medium text-green-600">
                   <BadgeCheck className="h-3 w-3" /> Verified User

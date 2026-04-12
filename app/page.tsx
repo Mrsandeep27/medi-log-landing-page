@@ -12,7 +12,7 @@ import { FloatingCTA } from '@/components/floating-cta'
 
 export default function Home() {
   return (
-    <main className="overflow-x-hidden">
+    <main>
       <Navbar />
       <Hero />
       <TrustBar />
