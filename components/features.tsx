@@ -41,29 +41,33 @@ const features: { icon: ReactNode; title: string; description: string; accent: s
 
 export function Features() {
   return (
-    <section id="features" className="py-16 md:py-24 px-4 bg-gradient-to-b from-gray-50 via-white to-gray-50">
+    <section id="features" className="py-8 md:py-24 px-4 bg-gradient-to-b from-gray-50 via-white to-gray-50">
       <div className="max-w-6xl mx-auto">
-        <div className="text-center mb-12 md:mb-16">
-          <h2 className="text-2xl md:text-4xl font-bold text-gray-900 mb-4">
+        <div className="text-center mb-4 md:mb-16">
+          <h2 className="text-xl md:text-4xl font-bold text-gray-900 mb-2 md:mb-4">
             <span className="gradient-underline visible">Why Families Choose MediFamily</span>
           </h2>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-2 md:gap-6">
           {features.map((feature, i) => (
             <div
               key={i}
-              className={`glass glass-hover rounded-xl p-6 md:p-8 transition-colors duration-200 ${feature.accent}`}
+              className={`glass glass-hover rounded-lg md:rounded-xl px-3 py-2.5 md:p-8 transition-colors duration-200 ${feature.accent}`}
             >
-              <div className={`w-12 h-12 rounded-xl ${feature.bgColor} flex items-center justify-center mb-4`}>
-                {feature.icon}
+              <div className="flex items-center gap-2.5 md:block">
+                <div className={`w-8 h-8 md:w-12 md:h-12 rounded-lg ${feature.bgColor} flex items-center justify-center flex-shrink-0 md:mb-4`}>
+                  {feature.icon}
+                </div>
+                <div className="min-w-0">
+                  <h3 className="text-sm md:text-lg font-bold text-gray-900 leading-tight">
+                    {feature.title}
+                  </h3>
+                  <p className="text-gray-500 text-xs md:text-base leading-snug md:leading-relaxed md:mt-2">
+                    {feature.description}
+                  </p>
+                </div>
               </div>
-              <h3 className="text-base md:text-lg font-bold text-gray-900 mb-2">
-                {feature.title}
-              </h3>
-              <p className="text-gray-700 text-sm md:text-base leading-relaxed">
-                {feature.description}
-              </p>
             </div>
           ))}
         </div>

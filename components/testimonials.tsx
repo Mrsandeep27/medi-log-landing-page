@@ -39,7 +39,7 @@ export function Testimonials() {
           {testimonials.map((testimonial, i) => (
             <div
               key={i}
-              className="glass rounded-xl p-3 md:p-5 relative overflow-hidden min-w-[calc(100vw-3rem)] md:min-w-0 snap-center flex-shrink-0"
+              className="glass rounded-xl p-3 md:p-5 relative overflow-hidden w-[calc(100vw-3rem)] max-w-[calc(100vw-3rem)] md:w-auto md:max-w-none snap-center flex-shrink-0"
             >
               <div
                 className="absolute top-1 right-3 text-6xl md:text-8xl font-serif text-blue-500/10 leading-none select-none pointer-events-none"
