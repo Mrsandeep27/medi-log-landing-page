@@ -27,9 +27,10 @@ export function Footer() {
           <span>MediFamily AI is for informational purposes only — not a substitute for professional medical advice. For emergencies, call 112.</span>
         </p>
 
-        <p className="text-[10px] md:text-xs text-gray-600">
-          &copy; 2025 MediFamily · Bangalore, India
-        </p>
+        <div className="flex items-center gap-3 text-[10px] md:text-xs text-gray-600">
+          <span>&copy; 2025 MediFamily · Bangalore, India</span>
+          <a href="https://instagram.com/medifamily_app" target="_blank" rel="noopener noreferrer" className="hover:text-pink-400 transition-colors">@medifamily_app</a>
+        </div>
       </div>
     </footer>
   )
