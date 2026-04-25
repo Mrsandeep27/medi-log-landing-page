@@ -10,7 +10,7 @@ const searchedAs = [
   'emergency health card app',
   'medical records app for family',
   'doctor sharing app QR',
-  'free health app India',
+  'best health app India',
   'health app for parents',
   'dawai reminder app',
   'prescription save karne wala app',

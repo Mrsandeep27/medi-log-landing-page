@@ -9,7 +9,7 @@ export function FinalCTA() {
         </h2>
 
         <p className="text-sm md:text-xl text-gray-700 mb-6 md:mb-10">
-          Free family health record app. No signup wall. No ads. No hidden charges.
+          The family health record app India trusts. No signup wall. No ads. No data selling.
         </p>
 
         <a
@@ -18,11 +18,11 @@ export function FinalCTA() {
           rel="noopener noreferrer"
           className="inline-flex items-center justify-center px-8 md:px-12 py-4 md:py-5 text-base md:text-xl font-bold bg-gradient-to-r from-blue-500 to-indigo-600 text-white rounded-xl hover:from-blue-600 hover:to-indigo-700 transition-colors shadow-xl shadow-blue-500/20"
         >
-          Open MediFamily — It&apos;s Free
+          Open MediFamily
         </a>
 
         <div className="mt-10 flex flex-col md:flex-row justify-center gap-4 text-gray-800 text-sm md:text-base">
-          <span className="inline-flex items-center gap-1"><Check className="h-4 w-4 text-green-500" /> Free forever for families</span>
+          <span className="inline-flex items-center gap-1"><Check className="h-4 w-4 text-green-500" /> One app for the whole family</span>
           <span className="hidden md:inline">•</span>
           <span className="inline-flex items-center gap-1"><Check className="h-4 w-4 text-green-500" /> Works offline</span>
           <span className="hidden md:inline">•</span>

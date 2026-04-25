@@ -41,7 +41,7 @@ export function HowItWorks() {
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 px-8 py-4 bg-gradient-to-r from-blue-500 to-indigo-600 hover:from-blue-600 hover:to-indigo-700 text-white font-bold text-lg rounded-xl transition-colors shadow-lg shadow-blue-500/25"
           >
-            Start Now — It&apos;s Free
+            Get Started Now
           </a>
         </div>
       </div>

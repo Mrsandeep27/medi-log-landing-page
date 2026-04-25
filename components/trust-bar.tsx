@@ -6,7 +6,7 @@ const trustItems: { icon: ReactNode; text: string }[] = [
   { icon: <Star className="h-4 w-4 fill-yellow-400 text-yellow-400" />, text: '4.8 Rating' },
   { icon: <Shield className="h-4 w-4" />, text: 'Data Stays On YOUR Phone' },
   { icon: null, text: 'Made in India, For India' },
-  { icon: <Gift className="h-4 w-4" />, text: '100% Free — No Hidden Charges' },
+  { icon: <Gift className="h-4 w-4" />, text: 'No Ads, No Hidden Tracking' },
   { icon: <Smartphone className="h-4 w-4" />, text: 'Works Without Internet' },
   { icon: <ShieldCheck className="h-4 w-4" />, text: 'We Don\'t Sell Your Data. Ever.' },
 ]

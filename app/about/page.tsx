@@ -28,8 +28,8 @@ const values = [
   },
   {
     icon: <Heart className="h-6 w-6 text-pink-500" />,
-    title: 'Free Forever',
-    description: '100% free for families. No hidden charges, no premium upsells, no credit card needed.',
+    title: 'No Ads, No Tracking',
+    description: 'No advertising, no data selling, no tracking cookies. Your privacy is the product.',
   },
   {
     icon: <Users className="h-6 w-6 text-cyan-500" />,

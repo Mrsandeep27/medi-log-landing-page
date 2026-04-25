@@ -9,11 +9,11 @@ const inter = Inter({ subsets: ['latin'] })
 const siteUrl = 'https://medifamily.in'
 
 export const metadata: Metadata = {
-  title: 'MediFamily | Family Health Record App India — Free & Offline',
-  description: 'MediFamily is a free family health record app India families trust. Store prescriptions, track medicines, share with doctors. Works offline. No ads.',
+  title: 'MediFamily | Family Health Record App India — Offline & Private',
+  description: 'MediFamily is the family health record app India families trust. Store prescriptions, track medicines, share with doctors via QR. Works offline. No ads.',
   keywords: [
     'family health app', 'health record app', 'prescription scanner app',
-    'medicine reminder app', 'offline health app', 'free health app india',
+    'medicine reminder app', 'offline health app', 'best health app india',
     'family medical records', 'AI prescription scanner', 'lab report analyzer',
     'emergency health card', 'health app hindi', 'ABHA health app',
     'dawai yaad dilane wala app', 'prescription save karne wala app',
@@ -26,19 +26,19 @@ export const metadata: Metadata = {
     languages: { 'hi-IN': '/', 'en-IN': '/' },
   },
   openGraph: {
-    title: 'MediFamily | Family Health Record App India — Free & Offline',
-    description: 'MediFamily is a free family health record app India families trust. Store prescriptions, track medicines, share with doctors. Works offline.',
+    title: 'MediFamily | Family Health Record App India — Offline & Private',
+    description: 'MediFamily is the family health record app India families trust. Store prescriptions, track medicines, share with doctors via QR. Works offline.',
     type: 'website',
     locale: 'en_IN',
     alternateLocale: ['hi_IN'],
     url: siteUrl,
     siteName: 'MediFamily',
-    images: [{ url: '/og-image.png', width: 1200, height: 630, alt: 'MediFamily — Free Family Health App for India' }],
+    images: [{ url: '/og-image.png', width: 1200, height: 630, alt: 'MediFamily — Family Health Record App for India' }],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'MediFamily — Family Health Record App India',
-    description: 'Free family health record app India families trust. Prescriptions, medicines, lab reports — one app, everyone\'s health. Works offline.',
+    description: 'The family health record app India families trust. Prescriptions, medicines, lab reports — one app, everyone\'s health. Works offline.',
     images: ['/og-image.png'],
   },
   robots: {
@@ -65,7 +65,7 @@ function JsonLd() {
         name: 'MediFamily',
         url: siteUrl,
         logo: `${siteUrl}/logo.png`,
-        description: 'Free AI-powered family health record app for Indian families. Offline-first, Hindi-supported.',
+        description: 'AI-powered family health record app for Indian families. Offline-first, Hindi-supported.',
         address: { '@type': 'PostalAddress', addressLocality: 'Bangalore', addressRegion: 'Karnataka', addressCountry: 'IN' },
         contactPoint: { '@type': 'ContactPoint', email: 'sandeep@2xg.in', contactType: 'customer support' },
       },
@@ -74,14 +74,14 @@ function JsonLd() {
         name: 'MediFamily',
         alternateName: ['MediFamily App', 'MediFamily Health App'],
         url: `${siteUrl}`,
-        description: 'Free offline-first family health record app for Indian families. AI prescription scanner, medicine reminders, emergency health card, lab report analyzer. Works without internet.',
+        description: 'Offline-first family health record app for Indian families. AI prescription scanner, medicine reminders, emergency health card, lab report analyzer. Works without internet.',
         applicationCategory: 'HealthApplication',
         applicationSubCategory: 'Medical Records',
         operatingSystem: 'Web, Android, iOS',
         browserRequirements: 'Requires a modern web browser',
         screenshot: `${siteUrl}/app-home.jpg`,
         author: { '@type': 'Organization', name: 'MediFamily', url: siteUrl },
-        offers: { '@type': 'Offer', price: '0', priceCurrency: 'INR', availability: 'https://schema.org/InStock' },
+        offers: { '@type': 'Offer', priceCurrency: 'INR', availability: 'https://schema.org/InStock', priceSpecification: { '@type': 'UnitPriceSpecification', priceType: 'free trial' } },
         aggregateRating: { '@type': 'AggregateRating', ratingValue: '4.8', ratingCount: '500', bestRating: '5', worstRating: '1' },
         featureList: [
           'AI Prescription Scanner (Hindi + English)',
@@ -95,7 +95,6 @@ function JsonLd() {
         ],
         inLanguage: ['en', 'hi'],
         countriesSupported: 'IN',
-        isAccessibleForFree: true,
       },
       {
         '@type': 'WebSite',
@@ -118,8 +117,8 @@ function JsonLd() {
           },
           {
             '@type': 'Question',
-            name: 'Is MediFamily really free?',
-            acceptedAnswer: { '@type': 'Answer', text: 'MediFamily is 100% free with no hidden charges, no premium plans, no ads, and no in-app purchases. All features including AI prescription scanner, medicine reminders, and emergency card are completely free.' },
+            name: 'How much does MediFamily cost?',
+            acceptedAnswer: { '@type': 'Answer', text: 'MediFamily is currently in early access and free to use during this period. We do not show ads or sell your data. Pricing for premium features may be introduced in the future, and we will notify you in advance of any changes.' },
           },
           {
             '@type': 'Question',

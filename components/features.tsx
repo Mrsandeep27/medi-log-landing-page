@@ -48,7 +48,7 @@ export function Features() {
             <span className="gradient-underline visible">Why Families Choose MediFamily</span>
           </h2>
           <p className="text-sm md:text-base text-gray-600 mt-2 md:mt-4 max-w-2xl mx-auto">
-            The family health record app India built for real family needs — also a medicine reminder app, prescription scanner app, lab report analyzer, and offline health app. Free, made for every Indian family member.
+            The family health record app India built for real family needs — also a medicine reminder app, prescription scanner app, lab report analyzer, and offline health app. Made for every Indian family member.
           </p>
         </div>
 

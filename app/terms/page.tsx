@@ -137,12 +137,13 @@ export default function TermsOfService() {
           {/* ── 8. Pricing ── */}
           <section>
             <h2>8. Pricing</h2>
-            <p>MediFamily is currently <strong>100% free</strong> with no hidden charges, no paid plans, no premium features, and no in-app purchases.</p>
-            <p>If we introduce paid features in the future:</p>
+            <p>MediFamily is currently in <strong>early access and free to use</strong> during this period. We do not show ads, sell your data, or charge for core features at this time.</p>
+            <p>We plan to introduce <strong>paid premium features</strong> in the future. When this happens:</p>
             <ul className="list-disc pl-6 space-y-1">
-              <li>Existing free features will remain free</li>
-              <li>We will provide reasonable advance notice before any pricing changes</li>
+              <li>We will provide reasonable advance notice before any pricing changes (at least 30 days)</li>
               <li>You will never be charged without your explicit consent</li>
+              <li>Your existing data and account will continue to be accessible regardless of pricing changes</li>
+              <li>A free tier with basic features may continue to be available, but this is not guaranteed</li>
             </ul>
           </section>
 

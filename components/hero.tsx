@@ -35,7 +35,7 @@ export function Hero() {
           </h1>
 
           <h2 className="text-sm md:text-xl text-gray-600 leading-relaxed font-normal">
-            MediFamily is a free family health record app India loves — also a powerful medicine reminder app, prescription scanner app, and offline health app for Indian families. Store prescriptions, track medicines, share with doctors via QR.
+            MediFamily is the family health record app India loves — also a powerful medicine reminder app, prescription scanner app, and offline health app for Indian families. Store prescriptions, track medicines, share with doctors via QR.
           </h2>
 
           <HeroClient />

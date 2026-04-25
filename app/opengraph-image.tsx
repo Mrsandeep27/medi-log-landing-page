@@ -88,7 +88,7 @@ export default function OgImage() {
             gap: '16px',
           }}
         >
-          <span>100% Free</span>
+          <span>Privacy-First</span>
           <span>•</span>
           <span>Offline Works</span>
           <span>•</span>

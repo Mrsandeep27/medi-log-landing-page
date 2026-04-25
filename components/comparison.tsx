@@ -4,7 +4,7 @@ const features = [
   { name: 'Family health profiles', medifamily: true, practo: false, onemg: false, apollo: false },
   { name: 'Works offline', medifamily: true, practo: false, onemg: false, apollo: false },
   { name: 'Hindi prescription scanner', medifamily: true, practo: false, onemg: false, apollo: false },
-  { name: '100% free (no premium)', medifamily: true, practo: false, onemg: false, apollo: false },
+  { name: 'Privacy-first (data on YOUR phone)', medifamily: true, practo: false, onemg: false, apollo: false },
   { name: 'Emergency health card', medifamily: true, practo: false, onemg: false, apollo: false },
   { name: 'Medicine reminders', medifamily: true, practo: true, onemg: true, apollo: true },
   { name: 'Doctor sharing via QR', medifamily: true, practo: false, onemg: false, apollo: false },
