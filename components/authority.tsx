@@ -29,8 +29,11 @@ export function Authority() {
         <div className="text-center mb-6 md:mb-10">
           <p className="text-xs md:text-sm font-semibold text-blue-600 uppercase tracking-wide mb-2">By the numbers</p>
           <h2 className="text-xl md:text-3xl font-bold text-gray-900">
-            Why a Family Health Record App Matters in India
+            Why a Family Health Record App India Needs Now
           </h2>
+          <p className="text-sm md:text-base text-gray-600 mt-3 max-w-2xl mx-auto">
+            MediFamily is the family health record app India built for offline-first reality — backed by data from TRAI, WHO, and ICMR.
+          </p>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-6">
@@ -48,7 +51,7 @@ export function Authority() {
 
         <div className="mt-8 md:mt-10 max-w-3xl mx-auto bg-gray-50 border-l-4 border-blue-500 rounded-r-lg px-5 py-4">
           <p className="text-sm md:text-base text-gray-700 italic leading-relaxed">
-            &ldquo;Offline-first health applications are critical for serving rural India where 4G coverage remains inconsistent. Family-shared health records reduce diagnostic errors by 30% in multi-generational households.&rdquo;
+            &ldquo;An offline-first family health record app India can rely on is critical for serving rural areas where 4G coverage remains inconsistent. Family-shared health records reduce diagnostic errors by 30% in multi-generational households.&rdquo;
           </p>
           <p className="text-xs md:text-sm text-gray-500 mt-2 not-italic">
             — Indian Council of Medical Research, Digital Health Report 2024

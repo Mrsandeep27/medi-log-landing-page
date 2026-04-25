@@ -2,11 +2,11 @@
 const faqs = [
   {
     q: 'Does MediFamily work without internet?',
-    a: 'Yes. MediFamily is offline-first by design. All health records are stored locally on your phone using IndexedDB. You can view records, get medicine reminders, and access your emergency health card without any internet connection. Data automatically syncs to the cloud (AWS Mumbai) when you reconnect.',
+    a: 'Yes. MediFamily is the family health record app India families use offline. All records are stored locally on your phone using IndexedDB. You can view records, get medicine reminders, and access your emergency health card without any internet connection. Data automatically syncs to the cloud (AWS Mumbai) when you reconnect.',
   },
   {
     q: 'Can I manage health records for my whole family?',
-    a: 'Yes. One MediFamily account covers unlimited family members — parents, spouse, children, grandparents. Each family member gets a separate profile with their own prescriptions, medicines, lab reports, vaccination history, and health vitals.',
+    a: 'Yes. As a true family health record app India was missing, MediFamily lets one account cover unlimited family members — parents, spouse, children, grandparents. Each family member gets a separate profile with their own prescriptions, medicines, lab reports, vaccination history, and health vitals.',
   },
   {
     q: 'How much does MediFamily cost?',
@@ -22,7 +22,7 @@ const faqs = [
   },
   {
     q: 'Is my health data safe with MediFamily?',
-    a: 'Your health data stays on your phone first. Optional cloud backup is hosted on AWS Mumbai (in India) with AES-256 encryption at rest and TLS 1.2+ in transit. Row-Level Security ensures only you can access your records. We do not show ads, do not sell data, and use no third-party analytics or tracking cookies. The codebase is open source and publicly auditable.',
+    a: 'Your health data stays on your phone first — that\'s the privacy promise of the family health record app India trusts. Optional cloud backup is hosted on AWS Mumbai with AES-256 encryption at rest and TLS 1.2+ in transit. Row-Level Security ensures only you can access your records. We do not show ads, do not sell data, and use no third-party analytics or tracking cookies. The codebase is open source and publicly auditable.',
   },
 ]
 
@@ -32,7 +32,7 @@ export function FAQ() {
       <div className="max-w-3xl mx-auto">
         <div className="text-center mb-8 md:mb-12">
           <h2 className="text-2xl md:text-4xl font-bold text-gray-900 mb-2">
-            <span className="gradient-underline visible">Frequently Asked Questions</span>
+            <span className="gradient-underline visible">Family Health Record App India FAQ</span>
           </h2>
           <p className="text-sm md:text-base text-gray-600 mt-2">
             Everything you need to know about the family health record app India trusts.
