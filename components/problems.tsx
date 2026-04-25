@@ -52,7 +52,7 @@ export function Problems() {
 
         <div className="text-center">
           <p className="text-base md:text-xl text-gray-900 font-semibold">
-            MediFamily fixes all of this — and works without internet.
+            MediFamily — the family health record app India trusts. Fixes all of this, and works without internet.
           </p>
         </div>
       </div>

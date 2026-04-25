@@ -47,6 +47,9 @@ export function Features() {
           <h2 className="text-xl md:text-4xl font-bold text-gray-900 mb-2 md:mb-4">
             <span className="gradient-underline visible">Why Families Choose MediFamily</span>
           </h2>
+          <p className="text-sm md:text-base text-gray-600 mt-2 md:mt-4 max-w-2xl mx-auto">
+            The family health record app India built for real family needs — offline, free, and made for every member.
+          </p>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-2 md:gap-6">

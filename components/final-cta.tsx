@@ -5,11 +5,11 @@ export function FinalCTA() {
     <section className="relative w-full py-12 md:py-24 px-4 bg-gradient-to-b from-blue-50 via-indigo-50 to-blue-50">
       <div className="relative z-10 max-w-4xl mx-auto text-center">
         <h2 className="text-2xl md:text-5xl font-bold text-gray-900 mb-3 md:mb-4">
-          Start Managing Your Family&apos;s Health Today.
+          Try the Family Health Record App India Loves.
         </h2>
 
         <p className="text-sm md:text-xl text-gray-700 mb-6 md:mb-10">
-          No signup wall. No ads. No hidden charges.
+          Free family health record app. No signup wall. No ads. No hidden charges.
         </p>
 
         <a

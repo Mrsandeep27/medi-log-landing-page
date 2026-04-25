@@ -9,8 +9,8 @@ const inter = Inter({ subsets: ['latin'] })
 const siteUrl = 'https://medifamily.in'
 
 export const metadata: Metadata = {
-  title: 'MediFamily — Your Whole Family\'s Health, In Your Pocket | Free Offline App',
-  description: 'Free family health app for Indian families. Store prescriptions, track medicines, share with doctors — works offline. AI prescription scanner for Hindi & English. Emergency health card, medicine reminders, lab report analyzer. No ads, no data selling, free forever.',
+  title: 'MediFamily | Family Health Record App India — Free & Offline',
+  description: 'MediFamily is a free family health record app India families trust. Store prescriptions, track medicines, share with doctors. Works offline. No ads.',
   keywords: [
     'family health app', 'health record app', 'prescription scanner app',
     'medicine reminder app', 'offline health app', 'free health app india',
@@ -26,8 +26,8 @@ export const metadata: Metadata = {
     languages: { 'hi-IN': '/', 'en-IN': '/' },
   },
   openGraph: {
-    title: 'MediFamily — Your Whole Family\'s Health, In Your Pocket',
-    description: 'Free offline family health app for Indian families. Prescriptions, medicines, lab reports — one app, everyone\'s health. Works without internet.',
+    title: 'MediFamily | Family Health Record App India — Free & Offline',
+    description: 'MediFamily is a free family health record app India families trust. Store prescriptions, track medicines, share with doctors. Works offline.',
     type: 'website',
     locale: 'en_IN',
     alternateLocale: ['hi_IN'],
@@ -37,8 +37,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'MediFamily — Free Family Health App',
-    description: 'Prescriptions, medicines, lab reports — one app for the whole family. Works offline. Free forever.',
+    title: 'MediFamily — Family Health Record App India',
+    description: 'Free family health record app India families trust. Prescriptions, medicines, lab reports — one app, everyone\'s health. Works offline.',
     images: ['/og-image.png'],
   },
   robots: {
