@@ -29,14 +29,13 @@ export function Hero() {
         <div className="space-y-4 md:space-y-8 text-center md:text-left">
           <h1 className="text-3xl sm:text-4xl md:text-6xl font-bold leading-tight">
             <span className="bg-gradient-to-r from-blue-600 via-indigo-600 to-purple-600 bg-clip-text text-transparent bg-[size:200%] animate-gradient-text">
-              Family Health Record App
-            </span>
-            <br />
-            <span className="text-gray-900 text-2xl sm:text-3xl md:text-5xl">India Trusts.</span>
+              Family Health Record App India
+            </span>{' '}
+            <span className="text-gray-900 text-2xl sm:text-3xl md:text-5xl">Trusts.</span>
           </h1>
 
           <h2 className="text-sm md:text-xl text-gray-600 leading-relaxed font-normal">
-            MediFamily is the free family health record app India families use to store prescriptions, track medicines, and share records with doctors. Works offline.
+            MediFamily is a free family health record app India loves — also a powerful medicine reminder app, prescription scanner app, and offline health app for Indian families. Store prescriptions, track medicines, share with doctors via QR.
           </h2>
 
           <HeroClient />
