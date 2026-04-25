@@ -103,6 +103,17 @@ function JsonLd() {
         inLanguage: ['en', 'hi'],
       },
       {
+        '@type': 'HowTo',
+        name: 'How to Manage Your Family\'s Health Records with MediFamily',
+        description: 'Set up MediFamily to manage health records for your entire family in 3 simple steps.',
+        totalTime: 'PT5M',
+        step: [
+          { '@type': 'HowToStep', position: 1, name: 'Add Your Family', text: 'Create one account and add unlimited family members — parents, spouse, children. Each gets their own health profile.' },
+          { '@type': 'HowToStep', position: 2, name: 'Store Everything', text: 'Add prescriptions, lab reports, medicines, and vitals. Use the AI prescription scanner for Hindi or English prescriptions.' },
+          { '@type': 'HowToStep', position: 3, name: 'Access Anywhere', text: 'View records offline on any device. Share with doctors via secure QR codes that auto-expire after 24 hours.' },
+        ],
+      },
+      {
         '@type': 'FAQPage',
         mainEntity: [
           {

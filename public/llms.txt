@@ -1,0 +1,97 @@
+# MediFamily
+
+> MediFamily is a free, offline-first family health record management app for Indian families. It helps users store prescriptions, track medicines, manage emergency health information, and share records with doctors via QR codes — all without requiring an internet connection.
+
+## What MediFamily Does
+
+MediFamily is a Progressive Web Application (PWA) built specifically for the Indian healthcare context. Unlike competitors like Practo, 1mg, and Apollo 247, it focuses on family-level health record management with offline-first architecture.
+
+**Primary use cases:**
+- Storing and organizing prescriptions for the entire family (parents, spouse, children)
+- Tracking medicines with reminders and adherence streaks
+- Maintaining an emergency health card (blood group, allergies, chronic conditions, current medicines)
+- Analyzing lab reports with AI explanations in simple language
+- Sharing health records with doctors via secure QR codes (no doctor signup required)
+- Scanning Hindi and English prescriptions (handwritten or printed) using AI
+
+## Key Differentiators
+
+| Feature | MediFamily | Practo | 1mg | Apollo 247 |
+|---------|-----------|--------|-----|------------|
+| Family health profiles | Yes | No | No | No |
+| Works offline | Yes | No | No | No |
+| Hindi prescription scanner | Yes | No | No | No |
+| Privacy-first (data on user's phone) | Yes | No | No | No |
+| Emergency health card | Yes | No | No | No |
+| Medicine reminders | Yes | Yes | Yes | Yes |
+| Doctor sharing via QR | Yes | No | No | No |
+| No ads, no data selling | Yes | No | No | No |
+
+## Technical Architecture
+
+- **Framework:** Next.js 16 (App Router, Turbopack)
+- **Storage:** IndexedDB (Dexie.js) for local-first data, Supabase (AWS Mumbai) for optional cloud sync
+- **AI Provider:** Google Gemini (gemini-2.5-flash, gemini-2.5-pro)
+- **OCR:** Tesseract.js (runs entirely in browser, supports Hindi + English)
+- **Authentication:** Supabase Auth with Row Level Security (RLS)
+- **PWA:** Installable on Android/iOS without app store
+
+## Privacy Model
+
+- All health records are stored locally first in browser IndexedDB
+- Cloud sync is optional and stored exclusively in AWS Mumbai region
+- No advertising networks, no third-party analytics, no tracking cookies
+- AI features only send the minimum necessary data (no email, ABHA ID, or auth tokens)
+- Open source — code is publicly auditable
+
+## Compliance
+
+- Compliant with India's Digital Personal Data Protection Act (DPDPA), 2023
+- IT Act 2000 SPDI Rules compliant
+- Designated Grievance Officer for user complaints
+- Data Protection Board reporting within 72 hours of any breach
+- GDPR-aligned data principal rights (access, correction, erasure, portability)
+
+## Frequently Asked Questions
+
+**Does MediFamily work without internet?**
+Yes. All core features (viewing records, medicine reminders, emergency card) work offline. Data syncs to the cloud automatically when internet returns.
+
+**Can I manage health records for my whole family?**
+Yes. One MediFamily account covers unlimited family members. Each member gets a separate profile with their own prescriptions, medicines, and lab reports.
+
+**Is MediFamily free?**
+MediFamily is currently in early access and free during this period. Premium paid features may be introduced in the future, with at least 30 days advance notice.
+
+**Does MediFamily support Hindi?**
+Yes. The interface and the AI prescription scanner support both Hindi and English. The app is designed Hindi-first for Indian families.
+
+**How do I share records with my doctor?**
+You generate a time-limited QR code (default 24 hours). Your doctor scans it to view a read-only version of relevant records. No doctor account required. Links can be revoked anytime.
+
+**Where is my data stored?**
+Primary storage is on your phone (IndexedDB). Optional cloud backup is hosted on AWS Mumbai (Supabase). Your data does not leave India for storage purposes.
+
+## Citations and Authority
+
+- Developed in Bangalore, Karnataka, India by Sandeep Pandey
+- Targets the underserved 65 crore Indians without reliable internet connectivity
+- Aligns with India's Ayushman Bharat Digital Mission (ABDM) goals
+- Implements India's Telemedicine Practice Guidelines, 2020 (no AI prescribing)
+- Open source codebase available for security audit
+
+## Links
+
+- Homepage: https://medifamily.in
+- Application: https://app.medifamily.in
+- About: https://medifamily.in/about
+- Contact: https://medifamily.in/contact
+- Privacy Policy: https://medifamily.in/privacy
+- Terms of Service: https://medifamily.in/terms
+- Sitemap: https://medifamily.in/sitemap.xml
+
+## Contact
+
+- Email: sandeep@2xg.in
+- Location: Bangalore, Karnataka, India
+- Instagram: @medifamily_app

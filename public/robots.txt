@@ -1,4 +1,75 @@
+# MediFamily — Family Health Record App India
+# https://medifamily.in
+
+# Default: allow all
 User-agent: *
 Allow: /
+
+# Google
+User-agent: Googlebot
+Allow: /
+
+User-agent: Googlebot-Image
+Allow: /
+
+# Bing / Microsoft Copilot
+User-agent: Bingbot
+Allow: /
+
+User-agent: msnbot
+Allow: /
+
+# OpenAI / ChatGPT
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+# Anthropic / Claude
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+# Perplexity
+User-agent: PerplexityBot
+Allow: /
+
+# Apple
+User-agent: Applebot
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+# DuckDuckGo
+User-agent: DuckDuckBot
+Allow: /
+
+# Brave (Claude uses Brave Search)
+User-agent: BraveBot
+Allow: /
+
+# Common Crawl (used by many AI training)
+User-agent: CCBot
+Allow: /
+
+# Yandex
+User-agent: YandexBot
+Allow: /
+
+# Disallow API and internal paths
+User-agent: *
+Disallow: /api/
+Disallow: /_next/
+Disallow: /admin/
 
 Sitemap: https://medifamily.in/sitemap.xml
